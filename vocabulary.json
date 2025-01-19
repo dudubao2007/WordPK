@@ -1,1102 +1,4024 @@
 [
   {
-    "word": "incompatible",
+    "word": "utensil",
+    "pronunciation": {
+      "uk": "juː'tensl",
+      "us": "juː'tensl"
+    },
+    "meaning": "n.【C】器具；用具",
+    "meanings": [
+      "n. 器具"
+    ],
     "difficulty": 3,
-    "options": [
-      "不相容的",
-      "匿名的",
-      "计算机的",
-      "遥控的",
-      "酸性的"
+    "options1": [
+      {
+        "word": "utility",
+        "meaning": "n. 效用"
+      },
+      {
+        "word": "unsettle",
+        "meaning": "v. 使不安"
+      },
+      {
+        "word": "unveil",
+        "meaning": "v. 揭幕"
+      },
+      {
+        "word": "utopia",
+        "meaning": "n. 乌托邦"
+      }
+    ],
+    "options2": [
+      {
+        "word": "obscure",
+        "meaning": "adj. 难解的"
+      },
+      {
+        "word": "deputy",
+        "meaning": "n. 代表"
+      }
     ]
   },
   {
-    "word": "legislation",
-    "difficulty": 3,
-    "options": [
-      "法律",
-      "宣言",
-      "理论",
-      "建议",
-      "乐观"
-    ]
-  },
-  {
-    "word": "bore",
-    "difficulty": 2,
-    "options": [
-      "使厌烦",
-      "野猪",
-      "彩虹",
-      "猫咪",
-      "光环"
-    ]
-  },
-  {
-    "word": "locust",
-    "difficulty": 3,
-    "options": [
-      "蝗虫",
-      "地点",
-      "寿命",
-      "原木",
-      "果园"
-    ]
-  },
-  {
-    "word": "dedicate",
-    "difficulty": 3,
-    "options": [
-      "致力于",
-      "违背",
-      "指示",
-      "分裂",
-      "烦扰"
-    ]
-  },
-  {
-    "word": "illuminate",
-    "difficulty": 3,
-    "options": [
-      "照明",
-      "模仿",
-      "消失",
-      "实现",
-      "反映"
-    ]
-  },
-  {
-    "word": "tribute",
-    "difficulty": 3,
-    "options": [
-      "敬意",
-      "利润",
-      "增长",
-      "分裂",
-      "共识"
-    ]
-  },
-  {
-    "word": "banker",
-    "difficulty": 2,
-    "options": [
-      "银行家",
-      "建筑师",
-      "音乐家",
-      "病毒",
-      "教练"
-    ]
-  },
-  {
-    "word": "capability",
-    "difficulty": 2,
-    "options": [
-      "能力",
-      "荒谬",
-      "安全",
-      "音乐性",
-      "商业"
-    ]
-  },
-  {
-    "word": "jerk",
-    "difficulty": 2,
-    "options": [
-      "急动",
-      "栏杆的",
-      "皱巴巴的",
-      "建议",
-      "仰望的"
-    ]
-  },
-  {
-    "word": "graze",
-    "difficulty": 2,
-    "options": [
-      "放牧",
-      "发光的",
-      "握住的",
-      "烤制",
-      "漫步"
-    ]
-  },
-  {
-    "word": "segment",
-    "difficulty": 2,
-    "options": [
-      "部分",
-      "句子",
-      "名人",
-      "木材",
-      "速度"
-    ]
-  },
-  {
-    "word": "barge",
-    "difficulty": 3,
-    "options": [
-      "驳船",
-      "聚会",
-      "烟花",
-      "修剪",
-      "管理的"
-    ]
-  },
-  {
-    "word": "hinge",
-    "difficulty": 2,
-    "options": [
-      "铰链",
-      "悬挂",
-      "比喻",
-      "杯子",
-      "规则的"
-    ]
-  },
-  {
-    "word": "thereof",
+    "word": "accessory",
+    "pronunciation": {
+      "uk": "ək'sesəri",
+      "us": "ək'sesəri"
+    },
+    "meaning": "n.附件；配件；同谋adj.辅助的；附属的；同谋的",
+    "meanings": [
+      "n. 附件"
+    ],
     "difficulty": 4,
-    "options": [
-      "由此",
-      "因此",
-      "这些",
-      "判定",
-      "统治"
+    "options1": [
+      {
+        "word": "access",
+        "meaning": "n. 入口"
+      },
+      {
+        "word": "ancestor",
+        "meaning": "n. 祖先"
+      },
+      {
+        "word": "assessor",
+        "meaning": "n. 评估员"
+      },
+      {
+        "word": "accede",
+        "meaning": "v. 同意"
+      }
+    ],
+    "options2": [
+      {
+        "word": "Roman",
+        "meaning": "adj. 罗马的"
+      },
+      {
+        "word": "magnet",
+        "meaning": "n. 磁铁"
+      }
     ]
   },
   {
-    "word": "fission",
+    "word": "tile",
+    "pronunciation": {
+      "uk": "taɪl",
+      "us": "taɪl"
+    },
+    "meaning": "n.瓷砖；瓦片v.盖瓦；铺瓷砖",
+    "meanings": [
+      "n. 瓷砖"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "tide",
+        "meaning": "n. 潮汐"
+      },
+      {
+        "word": "title",
+        "meaning": "n. 标题"
+      },
+      {
+        "word": "till",
+        "meaning": "prep. 直到"
+      },
+      {
+        "word": "pile",
+        "meaning": "v. 堆积"
+      }
+    ],
+    "options2": [
+      {
+        "word": "board",
+        "meaning": "n. 木板"
+      },
+      {
+        "word": "define",
+        "meaning": "v. 定义"
+      }
+    ]
+  },
+  {
+    "word": "tactics",
+    "pronunciation": {
+      "uk": "'tæktɪks",
+      "us": "'tæktɪks"
+    },
+    "meaning": "n.策略；战术",
+    "meanings": [
+      "n. 策略"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "tactile",
+        "meaning": "adj. 触觉的"
+      },
+      {
+        "word": "tacit",
+        "meaning": "adj. 默契的"
+      },
+      {
+        "word": "antics",
+        "meaning": "n. 古怪行为"
+      },
+      {
+        "word": "tactician",
+        "meaning": "n. 战术家"
+      }
+    ],
+    "options2": [
+      {
+        "word": "meditate",
+        "meaning": "v. 冥想"
+      },
+      {
+        "word": "shortcut",
+        "meaning": "n. 捷径"
+      }
+    ]
+  },
+  {
+    "word": "nightmare",
+    "pronunciation": {
+      "uk": "'naɪtˌmeə",
+      "us": "'naɪtˌmeə"
+    },
+    "meaning": "n.恶梦；使人极其痛苦的事情或经历；梦魇",
+    "meanings": [
+      "n. 恶梦"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "nightgown",
+        "meaning": "n. 睡衣"
+      },
+      {
+        "word": "nightfall",
+        "meaning": "n. 夜幕降临"
+      },
+      {
+        "word": "daymare",
+        "meaning": "n. 白日梦"
+      },
+      {
+        "word": "nightcap",
+        "meaning": "n. 睡帽"
+      }
+    ],
+    "options2": [
+      {
+        "word": "scoff",
+        "meaning": "v. 嘲笑"
+      },
+      {
+        "word": "diagnose",
+        "meaning": "v. 诊断"
+      }
+    ]
+  },
+  {
+    "word": "intercourse",
+    "pronunciation": {
+      "uk": "'ɪntəkɔːs",
+      "us": "'ɪntərkɔːrs"
+    },
+    "meaning": "n.交往；交流；性交",
+    "meanings": [
+      "n. 交流"
+    ],
     "difficulty": 4,
-    "options": [
-      "分裂",
-      "聚变",
-      "渗透",
-      "火山喷发",
-      "沉积"
+    "options1": [
+      {
+        "word": "intercom",
+        "meaning": "n. 对讲机"
+      },
+      {
+        "word": "interpose",
+        "meaning": "v. 插入"
+      },
+      {
+        "word": "interrupt",
+        "meaning": "v. 打断"
+      },
+      {
+        "word": "intercept",
+        "meaning": "v. 拦截"
+      }
+    ],
+    "options2": [
+      {
+        "word": "intake",
+        "meaning": "n. 吸入"
+      },
+      {
+        "word": "murmur",
+        "meaning": "v. 低语"
+      }
     ]
   },
   {
-    "word": "subdue",
+    "word": "cigar",
+    "pronunciation": {
+      "uk": "sɪ'ɡɑː(r)",
+      "us": "sɪ'ɡɑːr"
+    },
+    "meaning": "n.雪茄烟",
+    "meanings": [
+      "n. 雪茄烟"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "cigarillo",
+        "meaning": "n. 小雪茄"
+      },
+      {
+        "word": "cigarette",
+        "meaning": "n. 香烟"
+      },
+      {
+        "word": "jigger",
+        "meaning": "n. 量杯"
+      },
+      {
+        "word": "sigil",
+        "meaning": "n. 印记"
+      }
+    ],
+    "options2": [
+      {
+        "word": "magnetism",
+        "meaning": "n. 磁性"
+      },
+      {
+        "word": "second",
+        "meaning": "adj. 第二的"
+      }
+    ]
+  },
+  {
+    "word": "literal",
+    "pronunciation": {
+      "uk": "'lɪtərəl",
+      "us": "'lɪtərəl"
+    },
+    "meaning": "adj.逐字的；字面上的；文字的n.错误字体",
+    "meanings": [
+      "adj. 字面的"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "lateral",
+        "meaning": "adj. 侧面的"
+      },
+      {
+        "word": "litter",
+        "meaning": "n. 垃圾"
+      },
+      {
+        "word": "liberal",
+        "meaning": "adj. 自由的"
+      },
+      {
+        "word": "literati",
+        "meaning": "n. 文人"
+      }
+    ],
+    "options2": [
+      {
+        "word": "gamble",
+        "meaning": "v. 赌博"
+      },
+      {
+        "word": "Jupiter",
+        "meaning": "n. 木星"
+      }
+    ]
+  },
+  {
+    "word": "obligation",
+    "pronunciation": {
+      "uk": "ˌɒblɪ'ɡeɪʃn",
+      "us": "ˌɑːblɪ'ɡeɪʃn"
+    },
+    "meaning": "n.义务；责任",
+    "meanings": [
+      "n. 义务"
+    ],
     "difficulty": 4,
-    "options": [
-      "压制",
-      "供应",
-      "蜷缩",
-      "调整",
-      "赐予"
+    "options1": [
+      {
+        "word": "ligation",
+        "meaning": "n. 结扎"
+      },
+      {
+        "word": "obliteration",
+        "meaning": "n. 抹除"
+      },
+      {
+        "word": "ablation",
+        "meaning": "n. 切除"
+      },
+      {
+        "word": "abrogation",
+        "meaning": "n. 废除"
+      }
+    ],
+    "options2": [
+      {
+        "word": "fell",
+        "meaning": "v. 砍伐"
+      },
+      {
+        "word": "lily",
+        "meaning": "n. 百合花"
+      }
     ]
   },
   {
-    "word": "quantify",
+    "word": "overtake",
+    "pronunciation": {
+      "uk": "ˌəʊvə'teɪk",
+      "us": "ˌoʊvər'teɪk"
+    },
+    "meaning": "v.赶上；突然来袭；压倒",
+    "meanings": [
+      "v. 赶上"
+    ],
     "difficulty": 3,
-    "options": [
-      "量化",
-      "质检",
-      "文章",
-      "宣布",
-      "涉及"
-    ]
-  },
-  {
-    "word": "herd",
-    "difficulty": 2,
-    "options": [
-      "兽群",
-      "团队",
-      "听到的",
-      "塑料",
-      "工作"
-    ]
-  },
-  {
-    "word": "elliptical",
-    "difficulty": 3,
-    "options": [
-      "椭圆的",
-      "电动的",
-      "垂直的",
-      "朦胧的",
-      "崇高的"
-    ]
-  },
-  {
-    "word": "pertinent",
-    "difficulty": 3,
-    "options": [
-      "相关的",
-      "顺应的",
-      "无聊的",
-      "亲密的",
-      "教育的"
-    ]
-  },
-  {
-    "word": "spacious",
-    "difficulty": 3,
-    "options": [
-      "宽敞的",
-      "哲学的",
-      "油腻的",
-      "优雅的",
-      "随机的"
-    ]
-  },
-  {
-    "word": "breed",
-    "difficulty": 2,
-    "options": [
-      "繁殖",
-      "混合",
-      "成熟",
-      "编织",
-      "烘焙"
-    ]
-  },
-  {
-    "word": "nun",
-    "difficulty": 3,
-    "options": [
-      "尼姑",
-      "修士",
-      "忍者",
-      "沙漏",
-      "音符"
-    ]
-  },
-  {
-    "word": "scan",
-    "difficulty": 2,
-    "options": [
-      "扫描",
-      "潜水",
-      "谈判",
-      "粘贴",
-      "消化"
-    ]
-  },
-  {
-    "word": "gangster",
-    "difficulty": 3,
-    "options": [
-      "匪徒",
-      "器具",
-      "吊灯",
-      "理发师",
-      "奸细"
-    ]
-  },
-  {
-    "word": "supervise",
-    "difficulty": 2,
-    "options": [
-      "监督",
-      "超能力的",
-      "支持",
-      "隐藏",
-      "反抗"
-    ]
-  },
-  {
-    "word": "resign",
-    "difficulty": 3,
-    "options": [
-      "辞职",
-      "设计",
-      "执行",
-      "狂喜",
-      "指导"
-    ]
-  },
-  {
-    "word": "switch",
-    "difficulty": 3,
-    "options": [
-      "转换",
-      "针脚",
-      "刷",
-      "灯泡",
-      "书架"
-    ]
-  },
-  {
-    "word": "rigorous",
-    "difficulty": 3,
-    "options": [
-      "严格的",
-      "活力",
-      "甜美",
-      "繁荣",
-      "和蔼"
-    ]
-  },
-  {
-    "word": "nest",
-    "difficulty": 1,
-    "options": [
-      "巢",
-      "座位",
-      "谷物",
-      "小船",
-      "书桌"
-    ]
-  },
-  {
-    "word": "sting",
-    "difficulty": 2,
-    "options": [
-      "刺痛",
-      "臭味",
-      "流氓",
-      "涟漪",
-      "沉默"
-    ]
-  },
-  {
-    "word": "Heaven",
-    "difficulty": 2,
-    "options": [
-      "天空；天堂",
-      "目的地",
-      "铜管乐器",
-      "消逝",
-      "财富"
-    ]
-  },
-  {
-    "word": "tyranny",
-    "difficulty": 3,
-    "options": [
-      "暴政",
-      "家政",
-      "托尼",
-      "桥梁",
-      "雨衣"
-    ]
-  },
-  {
-    "word": "thermal",
-    "difficulty": 3,
-    "options": [
-      "热的",
-      "高雅的",
-      "无聊的",
-      "惊人的",
-      "荒谬的"
-    ]
-  },
-  {
-    "word": "ticket",
-    "difficulty": 2,
-    "options": [
-      "票",
-      "标签",
-      "名片",
-      "刊物",
-      "便利贴"
-    ]
-  },
-  {
-    "word": "hamper",
-    "difficulty": 2,
-    "options": [
-      "妨碍",
-      "节约",
-      "施肥",
-      "乐器",
-      "开车"
-    ]
-  },
-  {
-    "word": "beam",
-    "difficulty": 4,
-    "options": [
-      "光束",
-      "微光",
-      "缝合",
-      "运输",
-      "婚礼"
-    ]
-  },
-  {
-    "word": "locomotive",
-    "difficulty": 3,
-    "options": [
-      "机车",
-      "机动的",
-      "协作的",
-      "风力的",
-      "坦率的"
-    ]
-  },
-  {
-    "word": "garment",
-    "difficulty": 3,
-    "options": [
-      "衣服",
-      "装饰",
-      "更新",
-      "影响",
-      "刮风"
-    ]
-  },
-  {
-    "word": "modulate",
-    "difficulty": 3,
-    "options": [
-      "调整",
-      "移动",
-      "繁殖",
-      "风",
-      "休息"
-    ]
-  },
-  {
-    "word": "selection",
-    "difficulty": 2,
-    "options": [
-      "选择",
-      "选举",
-      "收藏",
-      "计算",
-      "假期"
-    ]
-  },
-  {
-    "word": "denounce",
-    "difficulty": 3,
-    "options": [
-      "谴责",
-      "宣告",
-      "签署",
-      "中止",
-      "解放"
-    ]
-  },
-  {
-    "word": "finely",
-    "difficulty": 2,
-    "options": [
-      "微细地",
-      "终点",
-      "礼仪",
-      "烦恼",
-      "银行"
-    ]
-  },
-  {
-    "word": "recognition",
-    "difficulty": 2,
-    "options": [
-      "承认，认出",
-      "软弱",
-      "著名",
-      "制作",
-      "崩溃"
-    ]
-  },
-  {
-    "word": "negligible",
-    "difficulty": 3,
-    "options": [
-      "可以忽略的",
-      "可笑的",
-      "独立的",
-      "逻辑性",
-      "火热的"
-    ]
-  },
-  {
-    "word": "beware",
-    "difficulty": 3,
-    "options": [
-      "小心",
-      "开始",
-      "装饰的",
-      "欢乐",
-      "驱动"
-    ]
-  },
-  {
-    "word": "Christ",
-    "difficulty": 2,
-    "options": [
-      "基督",
-      "水晶",
-      "祝福",
-      "光芒",
-      "咒语"
-    ]
-  },
-  {
-    "word": "cartridge",
-    "difficulty": 3,
-    "options": [
-      "墨水筒",
-      "粉盒",
-      "古董",
-      "陶器",
-      "刀片"
-    ]
-  },
-  {
-    "word": "vein",
-    "difficulty": 3,
-    "options": [
-      "静脉",
-      "茎",
-      "纸张",
-      "线条",
-      "峡谷"
-    ]
-  },
-  {
-    "word": "oar",
-    "difficulty": 2,
-    "options": [
-      "桨；橹；划手",
-      "选择",
-      "誓言",
-      "炖汤",
-      "黑暗"
-    ]
-  },
-  {
-    "word": "traverse",
-    "difficulty": 4,
-    "options": [
-      "横贯；穿越",
-      "冒险",
-      "障碍",
-      "详细",
-      "摆动"
-    ]
-  },
-  {
-    "word": "haunt",
-    "difficulty": 3,
-    "options": [
-      "常到的地方",
-      "谣言",
-      "家政",
-      "鲁莽",
-      "熔岩"
-    ]
-  },
-  {
-    "word": "snore",
-    "difficulty": 2,
-    "options": [
-      "打鼾",
-      "打嗝",
-      "喷嚏",
-      "聊天",
-      "跌落"
-    ]
-  },
-  {
-    "word": "pedal",
-    "difficulty": 2,
-    "options": [
-      "踏板",
-      "石油",
-      "标签",
-      "光泽",
-      "邻域"
-    ]
-  },
-  {
-    "word": "deviation",
-    "difficulty": 3,
-    "options": [
-      "偏离",
-      "贡献",
-      "五颜六色",
-      "干净",
-      "沙漠"
-    ]
-  },
-  {
-    "word": "sovereign",
-    "difficulty": 3,
-    "options": [
-      "元首",
-      "主宰",
-      "允许",
-      "规划",
-      "服务"
-    ]
-  },
-  {
-    "word": "twist",
-    "difficulty": 2,
-    "options": [
-      "扭曲",
-      "捕捉",
-      "切割",
-      "遮盖",
-      "哄骗"
-    ]
-  },
-  {
-    "word": "cancel",
-    "difficulty": 1,
-    "options": [
-      "取消",
-      "癌症",
-      "修复",
-      "清洁",
-      "喜悦"
-    ]
-  },
-  {
-    "word": "orchard",
-    "difficulty": 2,
-    "options": [
-      "果园",
-      "牧场",
-      "温室",
-      "庭院",
-      "桥梁"
-    ]
-  },
-  {
-    "word": "sequence",
-    "difficulty": 2,
-    "options": [
-      "顺序",
-      "后果",
-      "装备",
-      "名言",
-      "消费"
-    ]
-  },
-  {
-    "word": "notwithstanding",
-    "difficulty": 3,
-    "options": [
-      "虽然",
-      "不争辩",
-      "桥梁",
-      "心跳",
-      "图示"
-    ]
-  },
-  {
-    "word": "glider",
-    "difficulty": 2,
-    "options": [
-      "滑翔机",
-      "滑冰者",
-      "颈链",
-      "召唤者",
-      "消防员"
-    ]
-  },
-  {
-    "word": "harsh",
-    "difficulty": 1,
-    "options": [
-      "严厉的",
-      "潮湿",
-      "娇嫩",
-      "舒适",
-      "模糊的"
-    ]
-  },
-  {
-    "word": "opaque",
-    "difficulty": 3,
-    "options": [
-      "不透明的",
-      "苍白的",
-      "静止的",
-      "清晰的",
-      "温暖的"
-    ]
-  },
-  {
-    "word": "spiral",
-    "difficulty": 3,
-    "options": [
-      "螺旋",
-      "螺丝",
-      "永恒",
-      "演讲",
-      "热心"
-    ]
-  },
-  {
-    "word": "rectangle",
-    "difficulty": 2,
-    "options": [
-      "长方形",
-      "正方形",
-      "圆圈",
-      "直边",
-      "锯齿"
-    ]
-  },
-  {
-    "word": "harbour",
-    "difficulty": 2,
-    "options": [
-      "港口",
-      "吸尘器",
-      "沉船",
-      "教堂",
-      "帐篷"
-    ]
-  },
-  {
-    "word": "tempt",
-    "difficulty": 3,
-    "options": [
-      "诱惑",
-      "注意",
-      "抵抗",
-      "识别",
-      "遗忘"
-    ]
-  },
-  {
-    "word": "entreat",
-    "difficulty": 4,
-    "options": [
-      "恳求",
-      "整个的",
-      "款待",
-      "贸易",
-      "发明"
-    ]
-  },
-  {
-    "word": "indoor",
-    "difficulty": 1,
-    "options": [
-      "室内的",
-      "内向的",
-      "秘密的",
-      "美丽的",
-      "纯净的"
-    ]
-  },
-  {
-    "word": "peril",
-    "difficulty": 3,
-    "options": [
-      "危险",
-      "消逝",
-      "渡船",
-      "烹饪",
-      "角度"
-    ]
-  },
-  {
-    "word": "veil",
-    "difficulty": 2,
-    "options": [
-      "面纱；面罩",
-      "圆顶",
-      "木棍",
-      "地毯",
-      "轮胎"
-    ]
-  },
-  {
-    "word": "optical",
-    "difficulty": 3,
-    "options": [
-      "光学的",
-      "操作的",
-      "机械的",
-      "动态的",
-      "化学的"
-    ]
-  },
-  {
-    "word": "shrug",
-    "difficulty": 2,
-    "options": [
-      "耸肩",
-      "移动",
-      "减少",
-      "吸引",
-      "观望"
-    ]
-  },
-  {
-    "word": "wrinkle",
-    "difficulty": 3,
-    "options": [
-      "皱纹",
-      "翅膀",
-      "冒险",
-      "音效",
-      "腐败"
-    ]
-  },
-  {
-    "word": "skip",
-    "difficulty": 3,
-    "options": [
-      "跳过；略过；遗漏",
-      "船",
-      "削减",
-      "坦率",
-      "细节"
-    ]
-  },
-  {
-    "word": "solar",
-    "difficulty": 2,
-    "options": [
-      "太阳的",
-      "事件",
-      "柑橘",
-      "钢铁",
-      "功能"
-    ]
-  },
-  {
-    "word": "tabulate",
-    "difficulty": 4,
-    "options": [
-      "制成表",
-      "塔状的",
-      "非常快的",
-      "扩展",
-      "实验"
-    ]
-  },
-  {
-    "word": "deem",
-    "difficulty": 2,
-    "options": [
-      "认为",
-      "诉讼",
-      "支配",
-      "创造",
-      "演说"
-    ]
-  },
-  {
-    "word": "slaughter",
-    "difficulty": 3,
-    "options": [
-      "屠杀",
-      "磨坊",
-      "笑料",
-      "成就",
-      "销售"
-    ]
-  },
-  {
-    "word": "patent",
-    "difficulty": 2,
-    "options": [
-      "专利",
-      "潜在的",
-      "父亲的",
-      "细心的",
-      "环境的"
-    ]
-  },
-  {
-    "word": "migrate",
-    "difficulty": 3,
-    "options": [
-      "迁移",
-      "缓解",
-      "合并",
-      "运输",
-      "孵化"
-    ]
-  },
-  {
-    "word": "senator",
-    "difficulty": 2,
-    "options": [
-      "参议员",
-      "退休者",
-      "校长",
-      "开创者",
-      "传道人"
-    ]
-  },
-  {
-    "word": "agreeable",
-    "difficulty": 3,
-    "options": [
-      "愉快的",
-      "攻击的",
-      "农业的",
-      "冰冷的",
-      "昂贵的"
-    ]
-  },
-  {
-    "word": "paragraph",
-    "difficulty": 2,
-    "options": [
-      "段落",
-      "图表",
-      "表达",
-      "编辑",
-      "小组"
-    ]
-  },
-  {
-    "word": "irrigation",
-    "difficulty": 3,
-    "options": [
-      "灌溉",
-      "刺激",
-      "关系",
-      "音乐",
-      "工具"
-    ]
-  },
-  {
-    "word": "mechanism",
-    "difficulty": 2,
-    "options": [
-      "机制",
-      "预测",
-      "伪装",
-      "碎片",
-      "裁剪"
-    ]
-  },
-  {
-    "word": "signify",
-    "difficulty": 3,
-    "options": [
-      "表示",
-      "署名",
-      "信号",
-      "装饰",
-      "弄脏"
-    ]
-  },
-  {
-    "word": "subject",
-    "difficulty": 2,
-    "options": [
-      "主题",
-      "客观的",
-      "实验",
-      "娱乐",
-      "冒险"
-    ]
-  },
-  {
-    "word": "diet",
-    "difficulty": 2,
-    "options": [
-      "日常食物",
-      "会议",
-      "习惯",
-      "甜点",
-      "人才"
-    ]
-  },
-  {
-    "word": "reverse",
-    "difficulty": 3,
-    "options": [
-      "逆转",
-      "修正",
-      "重新审视",
-      "挣扎",
-      "诗歌"
-    ]
-  },
-  {
-    "word": "appreciation",
-    "difficulty": 2,
-    "options": [
-      "欣赏",
-      "提升",
-      "计算",
-      "批判",
-      "赞助"
-    ]
-  },
-  {
-    "word": "romance",
-    "difficulty": 3,
-    "options": [
-      "浪漫史",
-      "航海",
-      "货舱",
-      "烟花",
-      "暴雨"
-    ]
-  },
-  {
-    "word": "reason",
-    "difficulty": 2,
-    "options": [
-      "原因",
-      "季节",
-      "自由",
-      "风格",
-      "风扇"
-    ]
-  },
-  {
-    "word": "initially",
-    "difficulty": 2,
-    "options": [
-      "最初",
-      "邀请",
-      "突然",
-      "专心",
-      "短暂地"
-    ]
-  },
-  {
-    "word": "infinite",
-    "difficulty": 3,
-    "options": [
-      "无限的",
-      "细小的",
-      "极端的",
-      "总体",
-      "特定的"
+    "options1": [
+      {
+        "word": "overcome",
+        "meaning": "v. 克服"
+      },
+      {
+        "word": "overload",
+        "meaning": "v. 超载"
+      },
+      {
+        "word": "overturn",
+        "meaning": "v. 翻倒"
+      },
+      {
+        "word": "oversee",
+        "meaning": "v. 监督"
+      }
+    ],
+    "options2": [
+      {
+        "word": "denote",
+        "meaning": "v. 表示"
+      },
+      {
+        "word": "wasteful",
+        "meaning": "adj. 浪费的"
+      }
     ]
   },
   {
     "word": "dioxide",
+    "pronunciation": {
+      "uk": "daɪ'ɒksaɪd",
+      "us": "daɪ'ɑːksaɪd"
+    },
+    "meaning": "n.二氧化物",
+    "meanings": [
+      "n. 二氧化物"
+    ],
     "difficulty": 4,
-    "options": [
-      "二氧化物",
-      "三氯化物",
-      "氢氧化物",
-      "硝酸",
-      "干冰"
+    "options1": [
+      {
+        "word": "oxide",
+        "meaning": "n. 氧化物"
+      },
+      {
+        "word": "diode",
+        "meaning": "n. 二极管"
+      },
+      {
+        "word": "diction",
+        "meaning": "n. 措辞"
+      },
+      {
+        "word": "diagonal",
+        "meaning": "n. 对角线"
+      }
+    ],
+    "options2": [
+      {
+        "word": "array",
+        "meaning": "n. 一系列"
+      },
+      {
+        "word": "siren",
+        "meaning": "n. 警报器"
+      }
     ]
   },
   {
-    "word": "bureaucracy",
-    "difficulty": 3,
-    "options": [
-      "官僚制度",
-      "宝贵",
-      "矮树",
-      "舞蹈",
-      "汉堡"
+    "word": "liability",
+    "pronunciation": {
+      "uk": "ˌlaɪə'bɪləti",
+      "us": "ˌlaɪə'bɪləti"
+    },
+    "meaning": "n.责任；债务；倾向；可能性；不利因素",
+    "meanings": [
+      "n. 责任",
+      "n. 债务"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "liable",
+        "meaning": "adj. 有责任的"
+      },
+      {
+        "word": "viability",
+        "meaning": "n. 生存能力"
+      },
+      {
+        "word": "alibi",
+        "meaning": "n. 不在场证明"
+      },
+      {
+        "word": "reliability",
+        "meaning": "n. 可靠性"
+      }
+    ],
+    "options2": [
+      {
+        "word": "insert",
+        "meaning": "v. 插入"
+      },
+      {
+        "word": "oval",
+        "meaning": "adj. 卵形的"
+      }
     ]
   },
   {
-    "word": "grind",
+    "word": "muscular",
+    "pronunciation": {
+      "uk": "'mʌskjələ(r)",
+      "us": "'mʌskjələr"
+    },
+    "meaning": "adj.肌肉的；肌肉发达的",
+    "meanings": [
+      "adj. 肌肉的"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "muscled",
+        "meaning": "adj. 有肌肉的"
+      },
+      {
+        "word": "musculature",
+        "meaning": "n. 肌肉系统"
+      },
+      {
+        "word": "musketeer",
+        "meaning": "n. 火枪手"
+      },
+      {
+        "word": "muskellunge",
+        "meaning": "n. 大梭鱼"
+      }
+    ],
+    "options2": [
+      {
+        "word": "resident",
+        "meaning": "n. 居民"
+      },
+      {
+        "word": "patent",
+        "meaning": "n. 专利"
+      }
+    ]
+  },
+  {
+    "word": "insignificant",
+    "pronunciation": {
+      "uk": "ˌɪnsɪɡ'nɪfɪkənt",
+      "us": "ˌɪnsɪɡ'nɪfɪkənt"
+    },
+    "meaning": "adj.无关紧要的；可忽略的；不重要的；无用的",
+    "meanings": [
+      "adj.无关紧要的"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "insignia",
+        "meaning": "n. 徽章"
+      },
+      {
+        "word": "insecure",
+        "meaning": "adj. 不安全的"
+      },
+      {
+        "word": "insulate",
+        "meaning": "v. 隔离"
+      },
+      {
+        "word": "insinuate",
+        "meaning": "v. 暗示"
+      }
+    ],
+    "options2": [
+      {
+        "word": "axis",
+        "meaning": "n. 轴"
+      },
+      {
+        "word": "regulate",
+        "meaning": "v. 调整"
+      }
+    ]
+  },
+  {
+    "word": "embroidery",
+    "pronunciation": {
+      "uk": "ɪm'brɔɪdəri",
+      "us": "ɪm'brɔɪdəri"
+    },
+    "meaning": "n.刺绣品；粉饰；刺绣",
+    "meanings": [
+      "n. 刺绣品"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "embroider",
+        "meaning": "v. 刺绣"
+      },
+      {
+        "word": "embolden",
+        "meaning": "v. 使大胆"
+      },
+      {
+        "word": "embodiment",
+        "meaning": "n. 体现"
+      },
+      {
+        "word": "employer",
+        "meaning": "n. 雇主"
+      }
+    ],
+    "options2": [
+      {
+        "word": "shadowy",
+        "meaning": "adj. 阴暗的"
+      },
+      {
+        "word": "flatten",
+        "meaning": "v. 使变平"
+      }
+    ]
+  },
+  {
+    "word": "develop",
+    "pronunciation": {
+      "uk": "dɪ'veləp",
+      "us": "dɪ'veləp"
+    },
+    "meaning": "v.发展；发育；开发；冲洗(照片)",
+    "meanings": [
+      "v. 发展",
+      "v. 冲洗"
+    ],
     "difficulty": 2,
-    "options": [
-      "磨",
-      "烹饪",
-      "熔化",
-      "扭曲",
-      "弥漫"
+    "options1": [
+      {
+        "word": "devolve",
+        "meaning": "v. 转移"
+      },
+      {
+        "word": "devote",
+        "meaning": "v. 奉献"
+      },
+      {
+        "word": "deviate",
+        "meaning": "v. 偏离"
+      },
+      {
+        "word": "envelop",
+        "meaning": "v. 包围"
+      }
+    ],
+    "options2": [
+      {
+        "word": "nominate",
+        "meaning": "v. 提名"
+      },
+      {
+        "word": "outlet",
+        "meaning": "n. 出口"
+      }
+    ]
+  },
+  {
+    "word": "skeleton",
+    "pronunciation": {
+      "uk": "'skelɪtn",
+      "us": "'skelɪtn"
+    },
+    "meaning": "n.骨架；纲要；骨骼；骨瘦如柴的人或动物；家丑adj.骨骼的",
+    "meanings": [
+      "n. 骨架"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "skelter",
+        "meaning": "v. 奔跑"
+      },
+      {
+        "word": "skillet",
+        "meaning": "n. 平底锅"
+      },
+      {
+        "word": "skeletonize",
+        "meaning": "v. 去肉"
+      },
+      {
+        "word": "skeleton key",
+        "meaning": "n. 万能钥匙"
+      }
+    ],
+    "options2": [
+      {
+        "word": "straightforward",
+        "meaning": "adj. 易懂的"
+      },
+      {
+        "word": "wrench",
+        "meaning": "n. 扳手"
+      }
+    ]
+  },
+  {
+    "word": "scarlet",
+    "pronunciation": {
+      "uk": "'skɑːlət",
+      "us": "'skɑːrlət"
+    },
+    "meaning": "n.猩红；绯红色；红衣adj.绯红色的；猩红的",
+    "meanings": [
+      "adj. 绯红色的"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "scarf",
+        "meaning": "n. 围巾"
+      },
+      {
+        "word": "scale",
+        "meaning": "n. 规模"
+      },
+      {
+        "word": "scar",
+        "meaning": "n. 伤疤"
+      },
+      {
+        "word": "scarce",
+        "meaning": "adj. 稀少的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "strait",
+        "meaning": "n. 海峡"
+      },
+      {
+        "word": "speculate",
+        "meaning": "v. 推测"
+      }
+    ]
+  },
+  {
+    "word": "glider",
+    "pronunciation": {
+      "uk": "'ɡlaɪdə(r)",
+      "us": "'ɡlaɪdər"
+    },
+    "meaning": "n.滑翔机；助滑器；滑翔导弹",
+    "meanings": [
+      "n. 滑翔机"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "glide",
+        "meaning": "v. 滑行"
+      },
+      {
+        "word": "grider",
+        "meaning": "n. 大梁"
+      },
+      {
+        "word": "glitter",
+        "meaning": "v. 闪光"
+      },
+      {
+        "word": "griddle",
+        "meaning": "n. 煎锅"
+      }
+    ],
+    "options2": [
+      {
+        "word": "hardy",
+        "meaning": "adj. 强壮的"
+      },
+      {
+        "word": "embarrass",
+        "meaning": "v. 使尴尬"
+      }
+    ]
+  },
+  {
+    "word": "regiment",
+    "pronunciation": {
+      "uk": "'redʒɪmənt",
+      "us": "'redʒɪmənt"
+    },
+    "meaning": "n.（军队）团；大量（人或物）v.组编成团；组织；严格管制",
+    "meanings": [
+      "n. 团",
+      "v. 严格管制"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "regime",
+        "meaning": "n. 政权"
+      },
+      {
+        "word": "regimen",
+        "meaning": "n. 养生法"
+      },
+      {
+        "word": "regal",
+        "meaning": "adj. 帝王的"
+      },
+      {
+        "word": "reagent",
+        "meaning": "n. 试剂"
+      }
+    ],
+    "options2": [
+      {
+        "word": "axial",
+        "meaning": "adj. 轴的"
+      },
+      {
+        "word": "ferrous",
+        "meaning": "adj. 含铁的"
+      }
+    ]
+  },
+  {
+    "word": "meditate",
+    "pronunciation": {
+      "uk": "'medɪteɪt",
+      "us": "'medɪteɪt"
+    },
+    "meaning": "v.沉思；冥想；考虑；计划",
+    "meanings": [
+      "v. 沉思",
+      "v. 冥想"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "mediate",
+        "meaning": "v. 调解"
+      },
+      {
+        "word": "migrate",
+        "meaning": "v. 迁移"
+      },
+      {
+        "word": "mitigate",
+        "meaning": "v. 缓和"
+      },
+      {
+        "word": "mendate",
+        "meaning": "v. 修复"
+      }
+    ],
+    "options2": [
+      {
+        "word": "testify",
+        "meaning": "v. 作证"
+      },
+      {
+        "word": "unfit",
+        "meaning": "adj. 不合适的"
+      }
+    ]
+  },
+  {
+    "word": "charcoal",
+    "pronunciation": {
+      "uk": "'tʃɑːkəʊl",
+      "us": "'tʃɑːrkoʊl"
+    },
+    "meaning": "n.木炭；炭笔",
+    "meanings": [
+      "n. 木炭"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "charter",
+        "meaning": "n. 特许状"
+      },
+      {
+        "word": "carousal",
+        "meaning": "n. 狂欢"
+      },
+      {
+        "word": "charnel",
+        "meaning": "adj. 尸骨的"
+      },
+      {
+        "word": "charade",
+        "meaning": "n. 字谜游戏"
+      }
+    ],
+    "options2": [
+      {
+        "word": "hiss",
+        "meaning": "n. 嘘声"
+      },
+      {
+        "word": "scan",
+        "meaning": "v. 扫描"
+      }
+    ]
+  },
+  {
+    "word": "massacre",
+    "pronunciation": {
+      "uk": "'mæsəkə(r)",
+      "us": "'mæsəkər"
+    },
+    "meaning": "n.大屠杀；惨败v.大屠杀；彻底击败",
+    "meanings": [
+      "n. 大屠杀",
+      "v. 大屠杀"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "massive",
+        "meaning": "adj. 巨大的"
+      },
+      {
+        "word": "mastery",
+        "meaning": "n. 精通"
+      },
+      {
+        "word": "mascara",
+        "meaning": "n. 睫毛膏"
+      },
+      {
+        "word": "massager",
+        "meaning": "n. 按摩器"
+      }
+    ],
+    "options2": [
+      {
+        "word": "mercury",
+        "meaning": "n. 水银"
+      },
+      {
+        "word": "antarctic",
+        "meaning": "adj. 南极的"
+      }
+    ]
+  },
+  {
+    "word": "suicide",
+    "pronunciation": {
+      "uk": "'suːɪsaɪd",
+      "us": "'suːɪsaɪd"
+    },
+    "meaning": "n.自杀；自杀者；自取灭亡的行为adj.自杀性的",
+    "meanings": [
+      "n. 自杀"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "suitcase",
+        "meaning": "n. 手提箱"
+      },
+      {
+        "word": "sulcide",
+        "meaning": "n. 沟缘"
+      },
+      {
+        "word": "sulphide",
+        "meaning": "n. 硫化物"
+      },
+      {
+        "word": "subside",
+        "meaning": "v. 平息"
+      }
+    ],
+    "options2": [
+      {
+        "word": "immerse",
+        "meaning": "v. 浸"
+      },
+      {
+        "word": "ambitious",
+        "meaning": "adj. 有雄心的"
+      }
+    ]
+  },
+  {
+    "word": "tilt",
+    "pronunciation": {
+      "uk": "tɪlt",
+      "us": "tɪlt"
+    },
+    "meaning": "vt.(使)倾斜vi.抨击；争论n.倾斜；车盖；以全速；(小舟、车辆、地摊等的)帐蓬",
+    "meanings": [
+      "v. (使)倾斜",
+      "n. 倾斜"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "tilde",
+        "meaning": "n. 波浪号"
+      },
+      {
+        "word": "tint",
+        "meaning": "n. 色彩"
+      },
+      {
+        "word": "tit",
+        "meaning": "n. 山雀"
+      },
+      {
+        "word": "tintle",
+        "meaning": "n. 小水滴"
+      }
+    ],
+    "options2": [
+      {
+        "word": "yolk",
+        "meaning": "n. 蛋黄"
+      },
+      {
+        "word": "abundance",
+        "meaning": "n. 丰富"
+      }
+    ]
+  },
+  {
+    "word": "vigorous",
+    "pronunciation": {
+      "uk": "'vɪɡərəs",
+      "us": "'vɪɡərəs"
+    },
+    "meaning": "adj.精力充沛的；有力的；元气旺盛的",
+    "meanings": [
+      "adj. 精力充沛的"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "vigor",
+        "meaning": "n. 精力"
+      },
+      {
+        "word": "rigorous",
+        "meaning": "adj. 严格的"
+      },
+      {
+        "word": "vicious",
+        "meaning": "adj. 恶毒的"
+      },
+      {
+        "word": "victorious",
+        "meaning": "adj. 胜利的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "locust",
+        "meaning": "n. 蝗虫"
+      },
+      {
+        "word": "theorem",
+        "meaning": "n. 定理"
+      }
+    ]
+  },
+  {
+    "word": "realization",
+    "pronunciation": {
+      "uk": "ˌriːəlaɪ'zeɪʃn",
+      "us": "ˌriːələ'zeɪʃn"
+    },
+    "meaning": "n.实现；领悟；实得",
+    "meanings": [
+      "n. 实现"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "revelation",
+        "meaning": "n. 启示"
+      },
+      {
+        "word": "realistic",
+        "meaning": "adj. 现实的"
+      },
+      {
+        "word": "realize",
+        "meaning": "v. 实现"
+      },
+      {
+        "word": "rationalization",
+        "meaning": "n. 合理化"
+      }
+    ],
+    "options2": [
+      {
+        "word": "generalization",
+        "meaning": "n. 概括"
+      },
+      {
+        "word": "tighten",
+        "meaning": "v. 使紧"
+      }
+    ]
+  },
+  {
+    "word": "atom",
+    "pronunciation": {
+      "uk": "'ætəm",
+      "us": "'ætəm"
+    },
+    "meaning": "n.原子；微粒",
+    "meanings": [
+      "n. 原子"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "atoll",
+        "meaning": "n. 环礁"
+      },
+      {
+        "word": "adopt",
+        "meaning": "v. 收养"
+      },
+      {
+        "word": "atonal",
+        "meaning": "adj. 无调的"
+      },
+      {
+        "word": "ottoman",
+        "meaning": "adj. 奥斯曼的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "noted",
+        "meaning": "adj. 著名的"
+      },
+      {
+        "word": "shrug",
+        "meaning": "v. 耸肩"
+      }
+    ]
+  },
+  {
+    "word": "stern",
+    "pronunciation": {
+      "uk": "stɜːn",
+      "us": "stɜːrn"
+    },
+    "meaning": "adj.严厉的；严峻的；苛刻的；坚决的n.尾部；船尾",
+    "meanings": [
+      "adj. 严厉的"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "stir",
+        "meaning": "v. 搅拌"
+      },
+      {
+        "word": "stare",
+        "meaning": "v. 凝视"
+      },
+      {
+        "word": "strain",
+        "meaning": "v. 拉紧"
+      },
+      {
+        "word": "sternum",
+        "meaning": "n. 胸骨"
+      }
+    ],
+    "options2": [
+      {
+        "word": "watchful",
+        "meaning": "adj. 注意的"
+      },
+      {
+        "word": "interact",
+        "meaning": "v. 互动"
+      }
+    ]
+  },
+  {
+    "word": "chord",
+    "pronunciation": {
+      "uk": "kɔːd",
+      "us": "kɔːrd"
+    },
+    "meaning": "n.弦；和弦；情绪",
+    "meanings": [
+      "n. 和弦"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "cord",
+        "meaning": "n. 细绳"
+      },
+      {
+        "word": "chart",
+        "meaning": "n. 图表"
+      },
+      {
+        "word": "cheer",
+        "meaning": "v. 欢呼"
+      },
+      {
+        "word": "choir",
+        "meaning": "n. 合唱团"
+      }
+    ],
+    "options2": [
+      {
+        "word": "periodical",
+        "meaning": "n. 期刊"
+      },
+      {
+        "word": "recreation",
+        "meaning": "n. 消遣"
+      }
+    ]
+  },
+  {
+    "word": "sermon",
+    "pronunciation": {
+      "uk": "'sɜːmən",
+      "us": "'sɜːrmən"
+    },
+    "meaning": "n.布道；说教",
+    "meanings": [
+      "n. 布道"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "serum",
+        "meaning": "n. 血清"
+      },
+      {
+        "word": "seamen",
+        "meaning": "n. 水手"
+      },
+      {
+        "word": "germane",
+        "meaning": "adj. 相关的"
+      },
+      {
+        "word": "serene",
+        "meaning": "adj. 安详的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "engagement",
+        "meaning": "n. 约会"
+      },
+      {
+        "word": "stiffness",
+        "meaning": "n. 僵硬"
+      }
+    ]
+  },
+  {
+    "word": "hearth",
+    "pronunciation": {
+      "uk": "hɑːθ",
+      "us": "hɑːrθ"
+    },
+    "meaning": "n.炉床；灶台；炉边",
+    "meanings": [
+      "n. 炉床"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "heart",
+        "meaning": "n. 心"
+      },
+      {
+        "word": "earth",
+        "meaning": "n. 地球"
+      },
+      {
+        "word": "hear",
+        "meaning": "v. 听见"
+      },
+      {
+        "word": "hearty",
+        "meaning": "adj. 热情的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "handout",
+        "meaning": "n. 讲义材料"
+      },
+      {
+        "word": "elevation",
+        "meaning": "n. 海拔"
+      }
+    ]
+  },
+  {
+    "word": "masculine",
+    "pronunciation": {
+      "uk": "'mæskjəlɪn",
+      "us": "'mæskjəlɪn"
+    },
+    "meaning": "adj.男性的；有男子气概的；阳性的n.阳性；男性",
+    "meanings": [
+      "adj. 男性的",
+      "adj. 阳性的"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "masculinist",
+        "meaning": "n. 男性主义者"
+      },
+      {
+        "word": "masculinity",
+        "meaning": "n. 男子气概"
+      },
+      {
+        "word": "mascule",
+        "meaning": "adj. 阳刚的"
+      },
+      {
+        "word": "maculature",
+        "meaning": "n. 纸张的废料"
+      }
+    ],
+    "options2": [
+      {
+        "word": "Buddhism",
+        "meaning": "n. 佛教"
+      },
+      {
+        "word": "cement",
+        "meaning": "n. 水泥"
+      }
+    ]
+  },
+  {
+    "word": "tempt",
+    "pronunciation": {
+      "uk": "tempt",
+      "us": "tempt"
+    },
+    "meaning": "vt.诱惑；怂恿；引诱；吸引",
+    "meanings": [
+      "v. 诱惑"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "temptation",
+        "meaning": "n. 诱惑"
+      },
+      {
+        "word": "tempest",
+        "meaning": "n. 暴风雨"
+      },
+      {
+        "word": "tempting",
+        "meaning": "adj. 诱人的"
+      },
+      {
+        "word": "temp",
+        "meaning": "n. 临时工"
+      }
+    ],
+    "options2": [
+      {
+        "word": "pertinent",
+        "meaning": "adj. 相关的"
+      },
+      {
+        "word": "observation",
+        "meaning": "n. 观察"
+      }
+    ]
+  },
+  {
+    "word": "censor",
+    "pronunciation": {
+      "uk": "'sensə(r)",
+      "us": "'sensər"
+    },
+    "meaning": "n.检查员；监察官vt.检查",
+    "meanings": [
+      "n. 检查员"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "sensor",
+        "meaning": "n. 传感器"
+      },
+      {
+        "word": "censure",
+        "meaning": "v. 谴责"
+      },
+      {
+        "word": "censer",
+        "meaning": "n. 香炉"
+      },
+      {
+        "word": "consor",
+        "meaning": "n. 配偶"
+      }
+    ],
+    "options2": [
+      {
+        "word": "hurrah",
+        "meaning": "n. 欢呼声"
+      },
+      {
+        "word": "deepen",
+        "meaning": "v. 加深"
+      }
+    ]
+  },
+  {
+    "word": "moss",
+    "pronunciation": {
+      "uk": "mɒs",
+      "us": "mɔːs"
+    },
+    "meaning": "n.苔藓；泥沼vt.使长满苔藓",
+    "meanings": [
+      "n. 苔藓"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "mossy",
+        "meaning": "adj. 苔藓覆盖的"
+      },
+      {
+        "word": "mossel",
+        "meaning": "n. 贝类"
+      },
+      {
+        "word": "most",
+        "meaning": "adj. 最多的"
+      },
+      {
+        "word": "mousse",
+        "meaning": "n. 慕斯"
+      }
+    ],
+    "options2": [
+      {
+        "word": "luminous",
+        "meaning": "adj. 发光的"
+      },
+      {
+        "word": "administration",
+        "meaning": "n. 管理"
+      }
+    ]
+  },
+  {
+    "word": "squat",
+    "pronunciation": {
+      "uk": "skwɒt",
+      "us": "skwɑːt"
+    },
+    "meaning": "v.蹲下；蹲坐；擅自占地adj.蹲着的；矮胖胖的；低矮的n.蹲；擅自占用的土地",
+    "meanings": [
+      "v. 蹲下"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "squash",
+        "meaning": "v. 压扁"
+      },
+      {
+        "word": "squad",
+        "meaning": "n. 小队"
+      },
+      {
+        "word": "squint",
+        "meaning": "v. 斜视"
+      },
+      {
+        "word": "squelch",
+        "meaning": "v. 压制"
+      }
+    ],
+    "options2": [
+      {
+        "word": "set",
+        "meaning": "v. 放置"
+      },
+      {
+        "word": "pace",
+        "meaning": "n. 速度"
+      }
+    ]
+  },
+  {
+    "word": "availability",
+    "pronunciation": {
+      "uk": "əˌveɪlə'bɪləti",
+      "us": "əˌveɪlə'bɪləti"
+    },
+    "meaning": "n.有效；有用；有益；可得到的人(或物)；可用性",
+    "meanings": [
+      "n. 可用性"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "avail",
+        "meaning": "v. 有益于"
+      },
+      {
+        "word": "ability",
+        "meaning": "n. 能力"
+      },
+      {
+        "word": "viability",
+        "meaning": "n. 生存能力"
+      },
+      {
+        "word": "variability",
+        "meaning": "n. 变化性"
+      }
+    ],
+    "options2": [
+      {
+        "word": "transverse",
+        "meaning": "adj. 横向的"
+      },
+      {
+        "word": "detain",
+        "meaning": "v. 扣留"
+      }
+    ]
+  },
+  {
+    "word": "operation",
+    "pronunciation": {
+      "uk": "ˌɒpə'reɪʃn",
+      "us": "ˌɑːpə'reɪʃn"
+    },
+    "meaning": "n.操作；运转；经营；行动；手术；运算；生效；（复）运筹学",
+    "meanings": [
+      "n. 操作",
+      "n. 手术"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "operationist",
+        "meaning": "n. 操作员"
+      },
+      {
+        "word": "oration",
+        "meaning": "n. 演讲"
+      },
+      {
+        "word": "orationist",
+        "meaning": "n. 演讲家"
+      },
+      {
+        "word": "operand",
+        "meaning": "n. 运算对象"
+      }
+    ],
+    "options2": [
+      {
+        "word": "negotiate",
+        "meaning": "v. 谈判"
+      },
+      {
+        "word": "flavour",
+        "meaning": "n. 味道"
+      }
+    ]
+  },
+  {
+    "word": "jealousy",
+    "pronunciation": {
+      "uk": "'dʒeləsi",
+      "us": "'dʒeləsi"
+    },
+    "meaning": "n.妒忌",
+    "meanings": [
+      "n. 妒忌"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "jealous",
+        "meaning": "adj. 妒忌的"
+      },
+      {
+        "word": "zealous",
+        "meaning": "adj. 热情的"
+      },
+      {
+        "word": "jeopardy",
+        "meaning": "n. 危险"
+      },
+      {
+        "word": "jean",
+        "meaning": "n. 牛仔布"
+      }
+    ],
+    "options2": [
+      {
+        "word": "regime",
+        "meaning": "n. 政体"
+      },
+      {
+        "word": "wardrobe",
+        "meaning": "n. 衣橱"
+      }
+    ]
+  },
+  {
+    "word": "abbreviation",
+    "pronunciation": {
+      "uk": "əˌbriːvi'eɪʃn",
+      "us": "əˌbriːvi'eɪʃn"
+    },
+    "meaning": "n.缩写",
+    "meanings": [
+      "n. 缩写"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "aberration",
+        "meaning": "n. 偏离"
+      },
+      {
+        "word": "abdication",
+        "meaning": "n. 退位"
+      },
+      {
+        "word": "abrasion",
+        "meaning": "n. 磨损"
+      },
+      {
+        "word": "absolution",
+        "meaning": "n. 赦免"
+      }
+    ],
+    "options2": [
+      {
+        "word": "negligible",
+        "meaning": "adj. 微不足道的"
+      },
+      {
+        "word": "firework",
+        "meaning": "n. 烟火"
+      }
+    ]
+  },
+  {
+    "word": "bug",
+    "pronunciation": {
+      "uk": "bʌɡ",
+      "us": "bʌɡ"
+    },
+    "meaning": "n.臭虫；窃听器；[计]漏洞v.窃听；打扰；失去(镇定)",
+    "meanings": [
+      "n. 窃听器",
+      "v. 窃听"
+    ],
+    "difficulty": 1,
+    "options1": [
+      {
+        "word": "buggy",
+        "meaning": "n. 轻便马车"
+      },
+      {
+        "word": "bulge",
+        "meaning": "v. 膨胀"
+      },
+      {
+        "word": "bung",
+        "meaning": "n. 塞子"
+      },
+      {
+        "word": "mug",
+        "meaning": "n. 杯子"
+      }
+    ],
+    "options2": [
+      {
+        "word": "mend",
+        "meaning": "v. 修理"
+      },
+      {
+        "word": "generalize",
+        "meaning": "v. 概括"
+      }
+    ]
+  },
+  {
+    "word": "ferry",
+    "pronunciation": {
+      "uk": "'feri",
+      "us": "'feri"
+    },
+    "meaning": "n.渡船；渡口vt.摆渡；运输vi.摆渡",
+    "meanings": [
+      "n. 渡船"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "furry",
+        "meaning": "adj. 毛茸茸的"
+      },
+      {
+        "word": "ferrying",
+        "meaning": "n. 输送"
+      },
+      {
+        "word": "ferrous",
+        "meaning": "adj. 含铁的"
+      },
+      {
+        "word": "berry",
+        "meaning": "n. 浆果"
+      }
+    ],
+    "options2": [
+      {
+        "word": "brace",
+        "meaning": "v. 支撑"
+      },
+      {
+        "word": "studio",
+        "meaning": "n. 工作室"
+      }
+    ]
+  },
+  {
+    "word": "reveal",
+    "pronunciation": {
+      "uk": "rɪ'viːl",
+      "us": "rɪ'viːl"
+    },
+    "meaning": "vt.显示；透露；揭示；展现n.(外墙与门或窗之间的)窗侧；门侧；(汽车的)窗框",
+    "meanings": [
+      "v. 显示",
+      "v. 揭示"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "revel",
+        "meaning": "v. 狂欢"
+      },
+      {
+        "word": "reveille",
+        "meaning": "n. 起床号"
+      },
+      {
+        "word": "revelation",
+        "meaning": "n. 启示"
+      },
+      {
+        "word": "revelry",
+        "meaning": "n. 狂乐"
+      }
+    ],
+    "options2": [
+      {
+        "word": "underwear",
+        "meaning": "n. 内衣"
+      },
+      {
+        "word": "blouse",
+        "meaning": "n. 女衬衫"
+      }
+    ]
+  },
+  {
+    "word": "nose",
+    "pronunciation": {
+      "uk": "nəʊz",
+      "us": "noʊz"
+    },
+    "meaning": "n.鼻子；突出部分；嗅觉v.嗅到；探听",
+    "meanings": [
+      "n. 鼻子",
+      "v. 嗅到"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "hose",
+        "meaning": "n. 水管"
+      },
+      {
+        "word": "dose",
+        "meaning": "n. 剂量"
+      },
+      {
+        "word": "rose",
+        "meaning": "n. 玫瑰"
+      },
+      {
+        "word": "noise",
+        "meaning": "n. 噪音"
+      }
+    ],
+    "options2": [
+      {
+        "word": "yearn",
+        "meaning": "v. 渴望"
+      },
+      {
+        "word": "modulate",
+        "meaning": "v. 调整"
+      }
+    ]
+  },
+  {
+    "word": "electronics",
+    "pronunciation": {
+      "uk": "ɪˌlek'trɒnɪks",
+      "us": "ɪˌlek'trɑːnɪks"
+    },
+    "meaning": "n.电子学；电子器件",
+    "meanings": [
+      "n. 电子学"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "electronic",
+        "meaning": "adj. 电子的"
+      },
+      {
+        "word": "electroscope",
+        "meaning": "n. 验电器"
+      },
+      {
+        "word": "electrolysis",
+        "meaning": "n. 电解"
+      },
+      {
+        "word": "electrode",
+        "meaning": "n. 电极"
+      }
+    ],
+    "options2": [
+      {
+        "word": "specialize",
+        "meaning": "v. 专攻"
+      },
+      {
+        "word": "allowance",
+        "meaning": "n. 津贴"
+      }
+    ]
+  },
+  {
+    "word": "elevate",
+    "pronunciation": {
+      "uk": "'elɪveɪt",
+      "us": "'elɪveɪt"
+    },
+    "meaning": "vt.举起；提拔；素养提升；鼓舞vi.变高",
+    "meanings": [
+      "v. 举起",
+      "v. 提拔"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "elevator",
+        "meaning": "n. 电梯"
+      },
+      {
+        "word": "elevation",
+        "meaning": "n. 海拔"
+      },
+      {
+        "word": "elaborate",
+        "meaning": "v. 详细说明"
+      },
+      {
+        "word": "elation",
+        "meaning": "n. 兴高采烈"
+      }
+    ],
+    "options2": [
+      {
+        "word": "suitcase",
+        "meaning": "n. 手提箱"
+      },
+      {
+        "word": "hip",
+        "meaning": "n. 臀部"
+      }
+    ]
+  },
+  {
+    "word": "hurt",
+    "pronunciation": {
+      "uk": "hɜːt",
+      "us": "hɜːrt"
+    },
+    "meaning": "vt.损害；伤害；使疼痛vi.疼痛；造成损失n.创伤；伤害；打击",
+    "meanings": [
+      "v. 伤害",
+      "v. 疼痛"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "hurtle",
+        "meaning": "v. 猛冲"
+      },
+      {
+        "word": "hutch",
+        "meaning": "n. 兔笼"
+      },
+      {
+        "word": "hush",
+        "meaning": "v. 安静"
+      },
+      {
+        "word": "hurl",
+        "meaning": "v. 猛扔"
+      }
+    ],
+    "options2": [
+      {
+        "word": "otherwise",
+        "meaning": "adv. 否则"
+      },
+      {
+        "word": "supervise",
+        "meaning": "v. 监督"
+      }
+    ]
+  },
+  {
+    "word": "faultless",
+    "pronunciation": {
+      "uk": "'fɔːltləs",
+      "us": "'fɔːltləs"
+    },
+    "meaning": "adj.完美的；无缺点的",
+    "meanings": [
+      "adj. 完美的"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "faulty",
+        "meaning": "adj. 有缺陷的"
+      },
+      {
+        "word": "fearless",
+        "meaning": "adj. 无畏的"
+      },
+      {
+        "word": "fruitless",
+        "meaning": "adj. 无结果的"
+      },
+      {
+        "word": "fretless",
+        "meaning": "adj. 无忧虑的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "versus",
+        "meaning": "prep. 对抗"
+      },
+      {
+        "word": "sheriff",
+        "meaning": "n. 郡治安官"
+      }
+    ]
+  },
+  {
+    "word": "inevitably",
+    "pronunciation": {
+      "uk": "ɪn'evɪtəbli",
+      "us": "ɪn'evɪtəbli"
+    },
+    "meaning": "adv.不可避免地",
+    "meanings": [
+      "adv. 不可避免地"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "inevitable",
+        "meaning": "adj. 不可避免的"
+      },
+      {
+        "word": "inevitability",
+        "meaning": "n. 必然性"
+      },
+      {
+        "word": "invariably",
+        "meaning": "adv. 总是"
+      },
+      {
+        "word": "indelibly",
+        "meaning": "adv. 无法磨灭地"
+      }
+    ],
+    "options2": [
+      {
+        "word": "glue",
+        "meaning": "n. 胶水"
+      },
+      {
+        "word": "underline",
+        "meaning": "v. 强调"
+      }
+    ]
+  },
+  {
+    "word": "mingle",
+    "pronunciation": {
+      "uk": "'mɪŋɡl",
+      "us": "'mɪŋɡl"
+    },
+    "meaning": "vt.使混合；使结合vi.交往；联合；混在一起",
+    "meanings": [
+      "v. 使混合"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "tingle",
+        "meaning": "v. 刺痛"
+      },
+      {
+        "word": "jingle",
+        "meaning": "n. 叮当声"
+      },
+      {
+        "word": "dingle",
+        "meaning": "n. 山谷"
+      },
+      {
+        "word": "single",
+        "meaning": "adj. 单一的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "tuberculosis",
+        "meaning": "n. 肺结核"
+      },
+      {
+        "word": "surplus",
+        "meaning": "n. 过剩"
+      }
+    ]
+  },
+  {
+    "word": "synthesis",
+    "pronunciation": {
+      "uk": "'sɪnθəsɪs",
+      "us": "'sɪnθəsɪs"
+    },
+    "meaning": "n.合成；综合；综合分析",
+    "meanings": [
+      "n. 合成"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "synthetic",
+        "meaning": "adj. 合成的"
+      },
+      {
+        "word": "sympathy",
+        "meaning": "n. 同情"
+      },
+      {
+        "word": "synopsis",
+        "meaning": "n. 概要"
+      },
+      {
+        "word": "syntax",
+        "meaning": "n. 句法"
+      }
+    ],
+    "options2": [
+      {
+        "word": "vulgar",
+        "meaning": "adj. 粗俗的"
+      },
+      {
+        "word": "suppress",
+        "meaning": "v. 镇压"
+      }
+    ]
+  },
+  {
+    "word": "revolve",
+    "pronunciation": {
+      "uk": "rɪ'vɒlv",
+      "us": "rɪ'vɑːlv"
+    },
+    "meaning": "v.旋转；考虑；围绕",
+    "meanings": [
+      "v. 旋转"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "resolve",
+        "meaning": "v. 解决"
+      },
+      {
+        "word": "revel",
+        "meaning": "v. 狂欢"
+      },
+      {
+        "word": "revoke",
+        "meaning": "v. 撤销"
+      },
+      {
+        "word": "revelry",
+        "meaning": "n. 狂欢"
+      }
+    ],
+    "options2": [
+      {
+        "word": "grope",
+        "meaning": "v. 摸索"
+      },
+      {
+        "word": "tact",
+        "meaning": "n. 机智"
+      }
+    ]
+  },
+  {
+    "word": "sink",
+    "pronunciation": {
+      "uk": "sɪŋk",
+      "us": "sɪŋk"
+    },
+    "meaning": "v.下沉；沉没；渗透；低落；变低；衰弱；（太阳）落下n.水槽；沟渠；散热器；接收端",
+    "meanings": [
+      "v. 下沉"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "slink",
+        "meaning": "v. 潜行"
+      },
+      {
+        "word": "silk",
+        "meaning": "n. 丝绸"
+      },
+      {
+        "word": "sing",
+        "meaning": "v. 唱歌"
+      },
+      {
+        "word": "wink",
+        "meaning": "v. 眨眼"
+      }
+    ],
+    "options2": [
+      {
+        "word": "whereas",
+        "meaning": "conj. 然而"
+      },
+      {
+        "word": "appreciation",
+        "meaning": "n. 欣赏"
+      }
+    ]
+  },
+  {
+    "word": "fastener",
+    "pronunciation": {
+      "uk": "'fɑːsnə(r)",
+      "us": "'fæsnər"
+    },
+    "meaning": "n.扣件；纽扣；结扎者=fastening.",
+    "meanings": [
+      "n. 扣件"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "fastest",
+        "meaning": "adj. 最快的"
+      },
+      {
+        "word": "faster",
+        "meaning": "adj. 更快的"
+      },
+      {
+        "word": "falsifier",
+        "meaning": "n. 伪造者"
+      },
+      {
+        "word": "falter",
+        "meaning": "v. 犹豫"
+      }
+    ],
+    "options2": [
+      {
+        "word": "trade",
+        "meaning": "n. 贸易"
+      },
+      {
+        "word": "attachment",
+        "meaning": "n. 附件"
+      }
+    ]
+  },
+  {
+    "word": "notwithstanding",
+    "pronunciation": {
+      "uk": "ˌnɒtwɪθ'stændɪŋ",
+      "us": "ˌnɑːtwɪθ'stændɪŋ"
+    },
+    "meaning": "adv.虽然；尽管prep.纵使conj.虽然",
+    "meanings": [
+      "adv. 虽然"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "withstanding",
+        "meaning": "adj. 承受的"
+      },
+      {
+        "word": "noteworthy",
+        "meaning": "adj. 值得注意的"
+      },
+      {
+        "word": "notable",
+        "meaning": "adj. 显著的"
+      },
+      {
+        "word": "withstand",
+        "meaning": "v. 抵挡"
+      }
+    ],
+    "options2": [
+      {
+        "word": "sting",
+        "meaning": "v. 刺痛"
+      },
+      {
+        "word": "orient",
+        "meaning": "n. 东方"
+      }
+    ]
+  },
+  {
+    "word": "pace",
+    "pronunciation": {
+      "uk": "peɪs",
+      "us": "peɪs"
+    },
+    "meaning": "n.速度；步伐；(一)步v.踱步；(用步)测；(马)溜蹄走prep.用在人名前(礼貌的表达不同意见)",
+    "meanings": [
+      "n. 速度"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "pale",
+        "meaning": "adj. 苍白的"
+      },
+      {
+        "word": "race",
+        "meaning": "n. 比赛"
+      },
+      {
+        "word": "lace",
+        "meaning": "n. 花边"
+      },
+      {
+        "word": "mace",
+        "meaning": "n. 权杖"
+      }
+    ],
+    "options2": [
+      {
+        "word": "fertile",
+        "meaning": "adj. 肥沃的"
+      },
+      {
+        "word": "delegate",
+        "meaning": "n. 代表"
+      }
+    ]
+  },
+  {
+    "word": "embody",
+    "pronunciation": {
+      "uk": "ɪm'bɒdi",
+      "us": "ɪm'bɑːdi"
+    },
+    "meaning": "vt.使具体化；包含；代表，体现；使(精神)肉体化",
+    "meanings": [
+      "v. 体现"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "embed",
+        "meaning": "v. 嵌入"
+      },
+      {
+        "word": "embark",
+        "meaning": "v. 上船"
+      },
+      {
+        "word": "emboss",
+        "meaning": "v. 凸显"
+      },
+      {
+        "word": "embryo",
+        "meaning": "n. 胚胎"
+      }
+    ],
+    "options2": [
+      {
+        "word": "float",
+        "meaning": "v. 漂浮"
+      },
+      {
+        "word": "overestimate",
+        "meaning": "v. 过高估计"
+      }
+    ]
+  },
+  {
+    "word": "alteration",
+    "pronunciation": {
+      "uk": "ˌɔːltə'reɪʃn",
+      "us": "ˌɔːltə'reɪʃn"
+    },
+    "meaning": "n.改变；变更",
+    "meanings": [
+      "n. 改变"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "altercate",
+        "meaning": "v. 争论"
+      },
+      {
+        "word": "altimeter",
+        "meaning": "n. 测高仪"
+      },
+      {
+        "word": "alterego",
+        "meaning": "n. 另一个自我"
+      },
+      {
+        "word": "alternation",
+        "meaning": "n. 交替"
+      }
+    ],
+    "options2": [
+      {
+        "word": "fall",
+        "meaning": "v. 落下"
+      },
+      {
+        "word": "inclination",
+        "meaning": "n. 倾向"
+      }
+    ]
+  },
+  {
+    "word": "treasurer",
+    "pronunciation": {
+      "uk": "'treʒərə(r)",
+      "us": "'treʒərər"
+    },
+    "meaning": "n.会计；出纳员；司库",
+    "meanings": [
+      "n. 会计"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "treasure",
+        "meaning": "n. 宝藏"
+      },
+      {
+        "word": "pleasurer",
+        "meaning": "n. 使快乐的人"
+      },
+      {
+        "word": "measurer",
+        "meaning": "n. 测量员"
+      },
+      {
+        "word": "eraser",
+        "meaning": "n. 橡皮"
+      }
+    ],
+    "options2": [
+      {
+        "word": "impart",
+        "meaning": "v. 传授"
+      },
+      {
+        "word": "indefinite",
+        "meaning": "adj. 模糊的"
+      }
+    ]
+  },
+  {
+    "word": "diesel",
+    "pronunciation": {
+      "uk": "'diːzl",
+      "us": "'diːzl"
+    },
+    "meaning": "n.柴油机；内燃机Diesel.n.迪赛（意大利品牌）",
+    "meanings": [
+      "n. 柴油机"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "easel",
+        "meaning": "n. 画架"
+      },
+      {
+        "word": "weasel",
+        "meaning": "n. 鼬"
+      },
+      {
+        "word": "vessel",
+        "meaning": "n. 容器"
+      },
+      {
+        "word": "dismal",
+        "meaning": "adj. 凄凉的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "receiver",
+        "meaning": "n. 听筒"
+      },
+      {
+        "word": "oblige",
+        "meaning": "v. 迫使"
+      }
+    ]
+  },
+  {
+    "word": "ally",
+    "pronunciation": {
+      "uk": "'ælaɪ",
+      "us": "'ælaɪ"
+    },
+    "meaning": "n.同盟国；同盟者；伙伴v.（使）结盟；（使）联合",
+    "meanings": [
+      "n. 同盟国"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "allay",
+        "meaning": "v. 减轻"
+      },
+      {
+        "word": "alley",
+        "meaning": "n. 小巷"
+      },
+      {
+        "word": "alloy",
+        "meaning": "n. 合金"
+      },
+      {
+        "word": "apply",
+        "meaning": "v. 应用"
+      }
+    ],
+    "options2": [
+      {
+        "word": "novel",
+        "meaning": "n. 小说"
+      },
+      {
+        "word": "homogeneous",
+        "meaning": "adj. 同质的"
+      }
+    ]
+  },
+  {
+    "word": "ventilate",
+    "pronunciation": {
+      "uk": "'ventɪleɪt",
+      "us": "'ventɪleɪt"
+    },
+    "meaning": "vt. 使 ... 空气流通； 通风",
+    "meanings": [
+      "v. 通风"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "vengeance",
+        "meaning": "n. 报仇"
+      },
+      {
+        "word": "verbalize",
+        "meaning": "v. 口头表达"
+      },
+      {
+        "word": "validate",
+        "meaning": "v. 验证"
+      },
+      {
+        "word": "vegetate",
+        "meaning": "v. 无所事事"
+      }
+    ],
+    "options2": [
+      {
+        "word": "detail",
+        "meaning": "n. 细节"
+      },
+      {
+        "word": "thorough",
+        "meaning": "adj. 彻底的"
+      }
+    ]
+  },
+  {
+    "word": "shark",
+    "pronunciation": {
+      "uk": "ʃɑːk",
+      "us": "ʃɑːrk"
+    },
+    "meaning": "n.鲨鱼n.贪婪的人；放高利贷的人；老手v.诈取；诈骗",
+    "meanings": [
+      "n. 鲨鱼",
+      "n. 贪婪的人"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "sharp",
+        "meaning": "adj. 锋利的"
+      },
+      {
+        "word": "stark",
+        "meaning": "adj. 完全的"
+      },
+      {
+        "word": "spark",
+        "meaning": "n. 火花"
+      },
+      {
+        "word": "shard",
+        "meaning": "n. 碎片"
+      }
+    ],
+    "options2": [
+      {
+        "word": "hearty",
+        "meaning": "adj. 亲切友好的"
+      },
+      {
+        "word": "enchant",
+        "meaning": "v. 施魔法"
+      }
+    ]
+  },
+  {
+    "word": "architect",
+    "pronunciation": {
+      "uk": "'ɑːkɪtekt",
+      "us": "'ɑːrkɪtekt"
+    },
+    "meaning": "n.建筑师n.【喻】缔造者；创造者",
+    "meanings": [
+      "n. 建筑师"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "archive",
+        "meaning": "n. 档案"
+      },
+      {
+        "word": "artifact",
+        "meaning": "n. 人工制品"
+      },
+      {
+        "word": "archaic",
+        "meaning": "adj. 古代的"
+      },
+      {
+        "word": "architectonic",
+        "meaning": "adj. 建筑学的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "scout",
+        "meaning": "n. 侦察员"
+      },
+      {
+        "word": "filth",
+        "meaning": "n. 污秽"
+      }
+    ]
+  },
+  {
+    "word": "lengthen",
+    "pronunciation": {
+      "uk": "'leŋθən",
+      "us": "'leŋθən"
+    },
+    "meaning": "v.加长；延长",
+    "meanings": [
+      "v. 延长"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "length",
+        "meaning": "n. 长度"
+      },
+      {
+        "word": "strengthen",
+        "meaning": "v. 加强"
+      },
+      {
+        "word": "lessen",
+        "meaning": "v. 减少"
+      },
+      {
+        "word": "lengthy",
+        "meaning": "adj. 冗长的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "descent",
+        "meaning": "n. 下降"
+      },
+      {
+        "word": "likeness",
+        "meaning": "n. 相似物"
+      }
+    ]
+  },
+  {
+    "word": "recommendation",
+    "pronunciation": {
+      "uk": "ˌrekəmen'deɪʃn",
+      "us": "ˌrekəmen'deɪʃn"
+    },
+    "meaning": "n.推荐；建议",
+    "meanings": [
+      "n. 推荐"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "recompense",
+        "meaning": "n. 补偿"
+      },
+      {
+        "word": "accommodation",
+        "meaning": "n. 住宿"
+      },
+      {
+        "word": "reminiscence",
+        "meaning": "n. 回忆"
+      },
+      {
+        "word": "comprehension",
+        "meaning": "n. 理解"
+      }
+    ],
+    "options2": [
+      {
+        "word": "row",
+        "meaning": "n. 排"
+      },
+      {
+        "word": "thermal",
+        "meaning": "adj. 热的"
+      }
+    ]
+  },
+  {
+    "word": "snail",
+    "pronunciation": {
+      "uk": "sneɪl",
+      "us": "sneɪl"
+    },
+    "meaning": "n.蜗牛",
+    "meanings": [
+      "n. 蜗牛"
+    ],
+    "difficulty": 1,
+    "options1": [
+      {
+        "word": "trail",
+        "meaning": "n. 踪迹"
+      },
+      {
+        "word": "sail",
+        "meaning": "v. 航行"
+      },
+      {
+        "word": "nail",
+        "meaning": "n. 钉子"
+      },
+      {
+        "word": "hail",
+        "meaning": "n. 冰雹"
+      }
+    ],
+    "options2": [
+      {
+        "word": "simultaneous",
+        "meaning": "adj. 同时发生的"
+      },
+      {
+        "word": "jean",
+        "meaning": "n. 斜纹布"
+      }
+    ]
+  },
+  {
+    "word": "characterize",
+    "pronunciation": {
+      "uk": "'kærəktəraɪz",
+      "us": "'kærəktəraɪz"
+    },
+    "meaning": "vt.表示 ... 的典型；赋予 ... 特色",
+    "meanings": [
+      "v. 赋予特色"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "characteristic",
+        "meaning": "n. 特征"
+      },
+      {
+        "word": "charisma",
+        "meaning": "n. 魅力"
+      },
+      {
+        "word": "charade",
+        "meaning": "n. 猜字游戏"
+      },
+      {
+        "word": "charcoal",
+        "meaning": "n. 木炭"
+      }
+    ],
+    "options2": [
+      {
+        "word": "amplitude",
+        "meaning": "n. 振幅"
+      },
+      {
+        "word": "tensile",
+        "meaning": "adj. 张力的"
+      }
+    ]
+  },
+  {
+    "word": "ohm",
+    "pronunciation": {
+      "uk": "əʊm",
+      "us": "oʊm"
+    },
+    "meaning": "n.欧姆(电阻单位)；欧姆(德国物理学家)",
+    "meanings": [
+      "n. 欧姆"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "holm",
+        "meaning": "n. 小岛"
+      },
+      {
+        "word": "loam",
+        "meaning": "n. 土壤"
+      },
+      {
+        "word": "holmium",
+        "meaning": "n. 钬"
+      },
+      {
+        "word": "mohs",
+        "meaning": "n. 莫氏硬度"
+      }
+    ],
+    "options2": [
+      {
+        "word": "interpret",
+        "meaning": "v. 口译"
+      },
+      {
+        "word": "fling",
+        "meaning": "v. 投"
+      }
+    ]
+  },
+  {
+    "word": "trample",
+    "pronunciation": {
+      "uk": "'træmpl",
+      "us": "'træmpl"
+    },
+    "meaning": "n.踩踏v.践踏；轻视",
+    "meanings": [
+      "v. 踩踏"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "tramp",
+        "meaning": "n. 流浪者"
+      },
+      {
+        "word": "ample",
+        "meaning": "adj. 丰富的"
+      },
+      {
+        "word": "sample",
+        "meaning": "n. 样品"
+      },
+      {
+        "word": "temple",
+        "meaning": "n. 寺庙"
+      }
+    ],
+    "options2": [
+      {
+        "word": "streamline",
+        "meaning": "v. 使简化"
+      },
+      {
+        "word": "denounce",
+        "meaning": "v. 谴责"
+      }
+    ]
+  },
+  {
+    "word": "jungle",
+    "pronunciation": {
+      "uk": "'dʒʌŋɡl",
+      "us": "'dʒʌŋɡl"
+    },
+    "meaning": "adj.丛林的；垃圾的n.丛林；密林",
+    "meanings": [
+      "n. 丛林"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "juggle",
+        "meaning": "v. 玩杂耍"
+      },
+      {
+        "word": "jangle",
+        "meaning": "v. 发出刺耳声"
+      },
+      {
+        "word": "bungle",
+        "meaning": "v. 搞砸"
+      },
+      {
+        "word": "jingle",
+        "meaning": "n. 叮当声"
+      }
+    ],
+    "options2": [
+      {
+        "word": "persecute",
+        "meaning": "v. 迫害"
+      },
+      {
+        "word": "gross",
+        "meaning": "adj. 总的"
+      }
+    ]
+  },
+  {
+    "word": "gigantic",
+    "pronunciation": {
+      "uk": "dʒaɪ'ɡæntɪk",
+      "us": "dʒaɪ'ɡæntɪk"
+    },
+    "meaning": "adj.巨大的",
+    "meanings": [
+      "adj. 巨大的"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "giga",
+        "meaning": "n. 千兆"
+      },
+      {
+        "word": "gigantean",
+        "meaning": "adj. 巨大的"
+      },
+      {
+        "word": "gigabyte",
+        "meaning": "n. 千兆字节"
+      },
+      {
+        "word": "gigantism",
+        "meaning": "n. 巨人症"
+      }
+    ],
+    "options2": [
+      {
+        "word": "reveal",
+        "meaning": "v. 显示"
+      },
+      {
+        "word": "underwear",
+        "meaning": "n. 内衣"
+      }
+    ]
+  },
+  {
+    "word": "regulate",
+    "pronunciation": {
+      "uk": "'reɡjuleɪt",
+      "us": "'reɡjuleɪt"
+    },
+    "meaning": "vt.调整；校准；管理；控制",
+    "meanings": [
+      "v.调整",
+      "v.管理"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "regular",
+        "meaning": "adj. 规则的"
+      },
+      {
+        "word": "regulator",
+        "meaning": "n. 调节器"
+      },
+      {
+        "word": "regulation",
+        "meaning": "n. 法规"
+      },
+      {
+        "word": "regimen",
+        "meaning": "n. 养生法"
+      }
+    ],
+    "options2": [
+      {
+        "word": "insignificant",
+        "meaning": "adj. 无关紧要的"
+      },
+      {
+        "word": "merciful",
+        "meaning": "adj. 仁慈的"
+      }
+    ]
+  },
+  {
+    "word": "slim",
+    "pronunciation": {
+      "uk": "slɪm",
+      "us": "slɪm"
+    },
+    "meaning": "adj.苗条的；微小的；细长的v.减肥；缩减",
+    "meanings": [
+      "adj. 苗条的"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "slime",
+        "meaning": "n. 黏液"
+      },
+      {
+        "word": "slip",
+        "meaning": "v. 滑倒"
+      },
+      {
+        "word": "slit",
+        "meaning": "n. 裂缝"
+      },
+      {
+        "word": "slipstream",
+        "meaning": "n. 气流"
+      }
+    ],
+    "options2": [
+      {
+        "word": "chill",
+        "meaning": "v. (使)变冷"
+      },
+      {
+        "word": "vein",
+        "meaning": "n. 静脉"
+      }
+    ]
+  },
+  {
+    "word": "lessen",
+    "pronunciation": {
+      "uk": "'lesn",
+      "us": "'lesn"
+    },
+    "meaning": "v.减少；减轻",
+    "meanings": [
+      "v. 减少"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "lesson",
+        "meaning": "n. 课程"
+      },
+      {
+        "word": "lessor",
+        "meaning": "n. 出租人"
+      },
+      {
+        "word": "leaven",
+        "meaning": "v. 发酵"
+      },
+      {
+        "word": "lens",
+        "meaning": "n. 镜头"
+      }
+    ],
+    "options2": [
+      {
+        "word": "muse",
+        "meaning": "v. 沉思"
+      },
+      {
+        "word": "penalty",
+        "meaning": "n. 处罚"
+      }
+    ]
+  },
+  {
+    "word": "wrath",
+    "pronunciation": {
+      "uk": "rɒθ",
+      "us": "ræθ"
+    },
+    "meaning": "n.愤怒；激怒",
+    "meanings": [
+      "n. 愤怒"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "wreath",
+        "meaning": "n. 花环"
+      },
+      {
+        "word": "wrathful",
+        "meaning": "adj. 愤怒的"
+      },
+      {
+        "word": "wrangle",
+        "meaning": "v. 争吵"
+      },
+      {
+        "word": "wraith",
+        "meaning": "n. 幽灵"
+      }
+    ],
+    "options2": [
+      {
+        "word": "wield",
+        "meaning": "v. 行使"
+      },
+      {
+        "word": "assurance",
+        "meaning": "n. 保证"
+      }
+    ]
+  },
+  {
+    "word": "alien",
+    "pronunciation": {
+      "uk": "'eɪliən",
+      "us": "'eɪliən"
+    },
+    "meaning": "n.外侨；外国人；外星人adj.外国的；陌生的；相异的",
+    "meanings": [
+      "n. 外星人",
+      "adj. 外国的"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "align",
+        "meaning": "v. 对齐"
+      },
+      {
+        "word": "alibi",
+        "meaning": "n. 不在场证明"
+      },
+      {
+        "word": "allied",
+        "meaning": "adj. 联盟的"
+      },
+      {
+        "word": "alias",
+        "meaning": "n. 别名"
+      }
+    ],
+    "options2": [
+      {
+        "word": "inject",
+        "meaning": "v. 注射"
+      },
+      {
+        "word": "pant",
+        "meaning": "n. 喘息"
+      }
+    ]
+  },
+  {
+    "word": "track",
+    "pronunciation": {
+      "uk": "træk",
+      "us": "træk"
+    },
+    "meaning": "n.轨道；跑道；踪迹；小路；乐曲v.追踪；跟踪",
+    "meanings": [
+      "n. 轨道",
+      "v. 追踪"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "trick",
+        "meaning": "n. 诡计"
+      },
+      {
+        "word": "tract",
+        "meaning": "n. 地带"
+      },
+      {
+        "word": "stack",
+        "meaning": "n. 堆叠"
+      },
+      {
+        "word": "tack",
+        "meaning": "n. 大头针"
+      }
+    ],
+    "options2": [
+      {
+        "word": "magnetism",
+        "meaning": "n. 磁性"
+      },
+      {
+        "word": "cigar",
+        "meaning": "n. 雪茄烟"
+      }
+    ]
+  },
+  {
+    "word": "fireplace",
+    "pronunciation": {
+      "uk": "'faɪəpleɪs",
+      "us": "'faɪərpleɪs"
+    },
+    "meaning": "n.壁炉",
+    "meanings": [
+      "n. 壁炉"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "fireproof",
+        "meaning": "adj. 防火的"
+      },
+      {
+        "word": "firebrand",
+        "meaning": "n. 火把"
+      },
+      {
+        "word": "fireball",
+        "meaning": "n. 火球"
+      },
+      {
+        "word": "fireman",
+        "meaning": "n. 消防员"
+      }
+    ],
+    "options2": [
+      {
+        "word": "shrimp",
+        "meaning": "n. 虾"
+      },
+      {
+        "word": "motive",
+        "meaning": "n. 动机"
+      }
+    ]
+  },
+  {
+    "word": "transmission",
+    "pronunciation": {
+      "uk": "træns'mɪʃn",
+      "us": "træns'mɪʃn"
+    },
+    "meaning": "n.传输；传播；播送；变速器",
+    "meanings": [
+      "n. 传输"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "transmit",
+        "meaning": "v. 传输"
+      },
+      {
+        "word": "transition",
+        "meaning": "n. 过渡"
+      },
+      {
+        "word": "transistor",
+        "meaning": "n. 晶体管"
+      },
+      {
+        "word": "transfusion",
+        "meaning": "n. 输血"
+      }
+    ],
+    "options2": [
+      {
+        "word": "echo",
+        "meaning": "n. 回声"
+      },
+      {
+        "word": "white",
+        "meaning": "adj. 白色的"
+      }
+    ]
+  },
+  {
+    "word": "dignity",
+    "pronunciation": {
+      "uk": "'dɪɡnəti",
+      "us": "'dɪɡnəti"
+    },
+    "meaning": "n.尊严；高贵；端庄",
+    "meanings": [
+      "n. 尊严"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "dignify",
+        "meaning": "v. 使高贵"
+      },
+      {
+        "word": "indignity",
+        "meaning": "n. 侮辱"
+      },
+      {
+        "word": "digress",
+        "meaning": "v. 离题"
+      },
+      {
+        "word": "digit",
+        "meaning": "n. 数字"
+      }
+    ],
+    "options2": [
+      {
+        "word": "herb",
+        "meaning": "n. 药草"
+      },
+      {
+        "word": "peak",
+        "meaning": "n. 山顶"
+      }
+    ]
+  },
+  {
+    "word": "champion",
+    "pronunciation": {
+      "uk": "'tʃæmpiən",
+      "us": "'tʃæmpiən"
+    },
+    "meaning": "n.拥护者；冠军；优胜者；勇士vt.拥护；保卫；为 ... 而斗争",
+    "meanings": [
+      "n. 冠军",
+      "v. 拥护"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "champaign",
+        "meaning": "n. 原野"
+      },
+      {
+        "word": "champagne",
+        "meaning": "n. 香槟酒"
+      },
+      {
+        "word": "campion",
+        "meaning": "n. 香石竹"
+      },
+      {
+        "word": "champing",
+        "meaning": "v. 咀嚼"
+      }
+    ],
+    "options2": [
+      {
+        "word": "engage",
+        "meaning": "v. 雇佣"
+      },
+      {
+        "word": "attendance",
+        "meaning": "n. 出席"
+      }
+    ]
+  },
+  {
+    "word": "validity",
+    "pronunciation": {
+      "uk": "və'lɪdəti",
+      "us": "və'lɪdəti"
+    },
+    "meaning": "n.合法性；有效性；正确性",
+    "meanings": [
+      "n. 有效性"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "vitality",
+        "meaning": "n. 活力"
+      },
+      {
+        "word": "vacuity",
+        "meaning": "n. 空虚"
+      },
+      {
+        "word": "vanity",
+        "meaning": "n. 虚荣"
+      },
+      {
+        "word": "valid",
+        "meaning": "adj. 有效的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "slack",
+        "meaning": "adj. 松弛的"
+      },
+      {
+        "word": "stubborn",
+        "meaning": "adj. 顽固的"
+      }
+    ]
+  },
+  {
+    "word": "straighten",
+    "pronunciation": {
+      "uk": "'streɪtn",
+      "us": "'streɪtn"
+    },
+    "meaning": "v.弄直；使正确；整顿；挺直",
+    "meanings": [
+      "v. 弄直"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "straight",
+        "meaning": "adj. 直的"
+      },
+      {
+        "word": "stretcher",
+        "meaning": "n. 担架"
+      },
+      {
+        "word": "strengthen",
+        "meaning": "v. 加强"
+      },
+      {
+        "word": "stray",
+        "meaning": "v. 迷路"
+      }
+    ],
+    "options2": [
+      {
+        "word": "unreasonable",
+        "meaning": "adj. 不合理的"
+      },
+      {
+        "word": "vein",
+        "meaning": "n. 静脉"
+      }
+    ]
+  },
+  {
+    "word": "molecular",
+    "pronunciation": {
+      "uk": "mə'lekjələ(r)",
+      "us": "mə'lekjələ(r)"
+    },
+    "meaning": "adj.分子的",
+    "meanings": [
+      "adj. 分子的"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "molecule",
+        "meaning": "n. 分子"
+      },
+      {
+        "word": "modular",
+        "meaning": "adj. 模块化的"
+      },
+      {
+        "word": "molar",
+        "meaning": "adj. 摩尔的"
+      },
+      {
+        "word": "monocular",
+        "meaning": "adj. 单眼的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "massacre",
+        "meaning": "n. 大屠杀"
+      },
+      {
+        "word": "wretched",
+        "meaning": "adj. 可怜的"
+      }
+    ]
+  },
+  {
+    "word": "periodical",
+    "pronunciation": {
+      "uk": "ˌpɪəri'ɒdɪkl",
+      "us": "ˌpɪri'ɑːdɪkl"
+    },
+    "meaning": "n.期刊adj.定期的",
+    "meanings": [
+      "n. 期刊"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "periodic",
+        "meaning": "adj. 周期的"
+      },
+      {
+        "word": "peripheral",
+        "meaning": "adj. 外围的"
+      },
+      {
+        "word": "perennial",
+        "meaning": "adj. 多年生的"
+      },
+      {
+        "word": "pedagogical",
+        "meaning": "adj. 教育学的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "chord",
+        "meaning": "n. 和弦"
+      },
+      {
+        "word": "recreation",
+        "meaning": "n. 消遣"
+      }
+    ]
+  },
+  {
+    "word": "strife",
+    "pronunciation": {
+      "uk": "straɪf",
+      "us": "straɪf"
+    },
+    "meaning": "n.争吵；冲突；倾轧；竞争",
+    "meanings": [
+      "n. 冲突"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "stripe",
+        "meaning": "n. 条纹"
+      },
+      {
+        "word": "strive",
+        "meaning": "v. 努力"
+      },
+      {
+        "word": "strike",
+        "meaning": "v. 打击"
+      },
+      {
+        "word": "stifle",
+        "meaning": "v. 窒息"
+      }
+    ],
+    "options2": [
+      {
+        "word": "municipal",
+        "meaning": "adj. 市政的"
+      },
+      {
+        "word": "stout",
+        "meaning": "adj. 强壮的"
+      }
+    ]
+  },
+  {
+    "word": "gnaw",
+    "pronunciation": {
+      "uk": "nɔː",
+      "us": "nɔː"
+    },
+    "meaning": "v.咬；折磨；侵蚀",
+    "meanings": [
+      "v. 咬"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "gnarled",
+        "meaning": "adj. 粗糙的"
+      },
+      {
+        "word": "gnash",
+        "meaning": "v. 咬牙切齿"
+      },
+      {
+        "word": "gnome",
+        "meaning": "n. 地精"
+      },
+      {
+        "word": "gnar",
+        "meaning": "v. 咆哮"
+      }
+    ],
+    "options2": [
+      {
+        "word": "obstinate",
+        "meaning": "adj. 固执的"
+      },
+      {
+        "word": "deficient",
+        "meaning": "adj. 不足的"
+      }
+    ]
+  },
+  {
+    "word": "induction",
+    "pronunciation": {
+      "uk": "ɪn'dʌkʃn",
+      "us": "ɪn'dʌkʃn"
+    },
+    "meaning": "n.归纳法；感应；就职；诱发",
+    "meanings": [
+      "n. 归纳法",
+      "n. 感应"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "indictment",
+        "meaning": "n. 起诉"
+      },
+      {
+        "word": "introduction",
+        "meaning": "n. 介绍"
+      },
+      {
+        "word": "deduction",
+        "meaning": "n. 推论"
+      },
+      {
+        "word": "reduction",
+        "meaning": "n. 减少"
+      }
+    ],
+    "options2": [
+      {
+        "word": "inasmuch",
+        "meaning": "conj. 由于"
+      },
+      {
+        "word": "windmill",
+        "meaning": "n. 风车"
+      }
+    ]
+  },
+  {
+    "word": "initiate",
+    "pronunciation": {
+      "uk": "ɪ'nɪʃieɪt",
+      "us": "ɪ'nɪʃieɪt"
+    },
+    "meaning": "vt.开始；创始；启蒙；介绍加入n.创始人adj.新加入的；启蒙的",
+    "meanings": [
+      "v. 开始",
+      "n. 创始人"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "initiative",
+        "meaning": "n. 主动性"
+      },
+      {
+        "word": "irritate",
+        "meaning": "v. 激怒"
+      },
+      {
+        "word": "imitate",
+        "meaning": "v. 模仿"
+      },
+      {
+        "word": "intimate",
+        "meaning": "adj. 亲密的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "defy",
+        "meaning": "v. 藐视"
+      },
+      {
+        "word": "persistence",
+        "meaning": "n. 坚持"
+      }
+    ]
+  },
+  {
+    "word": "decisive",
+    "pronunciation": {
+      "uk": "dɪ'saɪsɪv",
+      "us": "dɪ'saɪsɪv"
+    },
+    "meaning": "adj.决定性的；果断的",
+    "meanings": [
+      "adj. 决定性的"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "decider",
+        "meaning": "n. 决定者"
+      },
+      {
+        "word": "decisory",
+        "meaning": "adj. 决定的"
+      },
+      {
+        "word": "decimate",
+        "meaning": "v. 大批杀死"
+      },
+      {
+        "word": "decipher",
+        "meaning": "v. 解码"
+      }
+    ],
+    "options2": [
+      {
+        "word": "outbreak",
+        "meaning": "n. 爆发"
+      },
+      {
+        "word": "remainder",
+        "meaning": "n. 剩余物"
+      }
+    ]
+  },
+  {
+    "word": "streamline",
+    "pronunciation": {
+      "uk": "'striːmlaɪn",
+      "us": "'striːmlaɪn"
+    },
+    "meaning": "v.使 ... 成流线型；使 ... 合理化；使简化",
+    "meanings": [
+      "v. 使简化"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "streamlet",
+        "meaning": "n. 小溪"
+      },
+      {
+        "word": "streambed",
+        "meaning": "n. 河床"
+      },
+      {
+        "word": "streamer",
+        "meaning": "n. 横幅"
+      },
+      {
+        "word": "streamy",
+        "meaning": "adj. 流动的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "denounce",
+        "meaning": "v. 谴责"
+      },
+      {
+        "word": "trample",
+        "meaning": "v. 踩踏"
+      }
+    ]
+  },
+  {
+    "word": "awful",
+    "pronunciation": {
+      "uk": "'ɔːfl",
+      "us": "'ɔːfl"
+    },
+    "meaning": "adj.糟糕的；可怕的；充满敬畏的；难受的adv.极其",
+    "meanings": [
+      "adj. 糟糕的"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "lawful",
+        "meaning": "adj. 合法的"
+      },
+      {
+        "word": "awfully",
+        "meaning": "adv. 极其地"
+      },
+      {
+        "word": "lawless",
+        "meaning": "adj. 无法无天的"
+      },
+      {
+        "word": "awe-inspiring",
+        "meaning": "adj. 令人敬畏的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "urge",
+        "meaning": "v. 驱策"
+      },
+      {
+        "word": "identical",
+        "meaning": "adj. 相同的"
+      }
+    ]
+  },
+  {
+    "word": "strip",
+    "pronunciation": {
+      "uk": "strɪp",
+      "us": "strɪp"
+    },
+    "meaning": "v.剥去；剥夺；脱衣；除去n.脱衣舞；长条；条状",
+    "meanings": [
+      "v. 剥去",
+      "n. 长条"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "stirrup",
+        "meaning": "n. 马镫"
+      },
+      {
+        "word": "stripe",
+        "meaning": "n. 条纹"
+      },
+      {
+        "word": "stipend",
+        "meaning": "n. 薪俸"
+      },
+      {
+        "word": "strut",
+        "meaning": "n. 支柱"
+      }
+    ],
+    "options2": [
+      {
+        "word": "characterize",
+        "meaning": "v. 赋予特色"
+      },
+      {
+        "word": "flock",
+        "meaning": "n. 一群"
+      }
+    ]
+  },
+  {
+    "word": "descendant",
+    "pronunciation": {
+      "uk": "dɪ'sendənt",
+      "us": "dɪ'sendənt"
+    },
+    "meaning": "n.后裔；子孙；后代",
+    "meanings": [
+      "n. 后裔"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "ascendant",
+        "meaning": "adj. 上升的"
+      },
+      {
+        "word": "dependant",
+        "meaning": "n. 受抚养者"
+      },
+      {
+        "word": "descent",
+        "meaning": "n. 下降"
+      },
+      {
+        "word": "dissonant",
+        "meaning": "adj. 不和谐的"
+      }
+    ],
+    "options2": [
+      {
+        "word": "riot",
+        "meaning": "n. 暴乱"
+      },
+      {
+        "word": "whilst",
+        "meaning": "conj. 当...时"
+      }
+    ]
+  },
+  {
+    "word": "appreciation",
+    "pronunciation": {
+      "uk": "əˌpriːʃi'eɪʃn",
+      "us": "əˌpriːʃi'eɪʃn"
+    },
+    "meaning": "n.欣赏；感激；鉴识；评价；增值",
+    "meanings": [
+      "n. 欣赏",
+      "n. 感激"
+    ],
+    "difficulty": 4,
+    "options1": [
+      {
+        "word": "depreciation",
+        "meaning": "n. 贬值"
+      },
+      {
+        "word": "appreciable",
+        "meaning": "adj. 可察觉的"
+      },
+      {
+        "word": "appreciative",
+        "meaning": "adj. 感激的"
+      },
+      {
+        "word": "appellation",
+        "meaning": "n. 名称"
+      }
+    ],
+    "options2": [
+      {
+        "word": "flee",
+        "meaning": "v. 逃走"
+      },
+      {
+        "word": "sink",
+        "meaning": "v. 下沉"
+      }
+    ]
+  },
+  {
+    "word": "admiration",
+    "pronunciation": {
+      "uk": "ˌædmə'reɪʃn",
+      "us": "ˌædmə'reɪʃn"
+    },
+    "meaning": "n.钦佩；赞赏",
+    "meanings": [
+      "n. 钦佩"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "admire",
+        "meaning": "v. 欣赏"
+      },
+      {
+        "word": "admonition",
+        "meaning": "n. 警告"
+      },
+      {
+        "word": "admixture",
+        "meaning": "n. 混合物"
+      },
+      {
+        "word": "admission",
+        "meaning": "n. 许可"
+      }
+    ],
+    "options2": [
+      {
+        "word": "inaugurate",
+        "meaning": "v. 开始"
+      },
+      {
+        "word": "indispensable",
+        "meaning": "adj. 不可缺少的"
+      }
+    ]
+  },
+  {
+    "word": "gutter",
+    "pronunciation": {
+      "uk": "'ɡʌtə(r)",
+      "us": "'ɡʌtər"
+    },
+    "meaning": "n.排水沟；槽；贫民区vi.形成沟；淌蜡；(蜡烛)忽明忽暗vt.开沟于",
+    "meanings": [
+      "n. 排水沟"
+    ],
+    "difficulty": 3,
+    "options1": [
+      {
+        "word": "butter",
+        "meaning": "n. 黄油"
+      },
+      {
+        "word": "cutter",
+        "meaning": "n. 切割机"
+      },
+      {
+        "word": "glitter",
+        "meaning": "v. 闪光"
+      },
+      {
+        "word": "muter",
+        "meaning": "n. 静音器"
+      }
+    ],
+    "options2": [
+      {
+        "word": "cheat",
+        "meaning": "v. 欺骗"
+      },
+      {
+        "word": "lounge",
+        "meaning": "n. 休息室"
+      }
+    ]
+  },
+  {
+    "word": "cancel",
+    "pronunciation": {
+      "uk": "'kænsl",
+      "us": "'kænsl"
+    },
+    "meaning": "v.取消；作废；注销；抵消；删除n.取消；删除",
+    "meanings": [
+      "v. 取消"
+    ],
+    "difficulty": 2,
+    "options1": [
+      {
+        "word": "cancer",
+        "meaning": "n. 癌症"
+      },
+      {
+        "word": "candle",
+        "meaning": "n. 蜡烛"
+      },
+      {
+        "word": "camel",
+        "meaning": "n. 骆驼"
+      },
+      {
+        "word": "canal",
+        "meaning": "n. 运河"
+      }
+    ],
+    "options2": [
+      {
+        "word": "endurance",
+        "meaning": "n. 忍耐力"
+      },
+      {
+        "word": "yeast",
+        "meaning": "n. 酵母"
+      }
     ]
   }
 ]

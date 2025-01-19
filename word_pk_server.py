@@ -4,6 +4,7 @@ import asyncio
 import json
 import random
 import websockets
+import time
 
 class Config:
     # 游戏配置
@@ -79,19 +80,29 @@ class WordPKGame:
         # 筛选难度大于1的题目
         hard_words = [word for word in self.vocabulary if word.get('difficulty', 0) > Config.MIN_DIFFICULTY]
         word_data = random.choice(hard_words)
-        correct_answer = word_data['options'][0]  # 第一个选项总是正确答案
-        wrong_options = word_data['options'][1:]  # 其他选项
-        random.shuffle(wrong_options)  # 打乱错误选项
-        selected_wrong_options = wrong_options[:3]  # 选择三个错误选项
+        
+        # 从meanings中选择正确答案
+        if len(word_data['meanings']) == 1:
+            correct_answer = word_data['meanings'][0]
+        else:
+            # 75%概率选第一个，25%概率选第二个
+            correct_answer = word_data['meanings'][0] if random.random() < 0.75 else word_data['meanings'][1]
+        
+        # 从options1中选择两个错误选项
+        wrong_options1 = random.sample([opt['meaning'] for opt in word_data['options1']], 2)
+        # 从options2中选择一个错误选项
+        wrong_options2 = random.sample([opt['meaning'] for opt in word_data['options2']], 1)
         
         # 组合所有选项并打乱
-        all_options = [correct_answer] + selected_wrong_options
+        all_options = [correct_answer] + wrong_options1 + wrong_options2
         random.shuffle(all_options)
         
         return {
             'word': word_data['word'],
             'options': all_options,
-            'correct_answer': correct_answer
+            'correct_answer': correct_answer,
+            'meaning': word_data['meaning'],
+            'pronunciation': word_data['pronunciation']
         }
     
     async def handle_player_disconnect(self, websocket):
@@ -119,38 +130,40 @@ class WordPKGame:
                     p.score = 0
                     p.ready = False
             
-            # 获取其他玩家
+            # 获取其他玩家（在删除当前玩家之前）
             other_players = {ws: p for ws, p in self.players.items() if ws != websocket}
             
             # 通知其他玩家有玩家离开并重置他们的游戏状态
             if other_players:
-                try:
-                    await asyncio.gather(
-                        *[p.websocket.send(json.dumps({
-                            'type': 'game_over',
-                            'reason': f"玩家 {player.name} 断开连接，游戏结束",
-                            'scores': {p.name: p.score for p in other_players.values()},
-                            'reset_game': True  # 添加标志通知客户端重置游戏状态
-                        })) for p in other_players.values()]
-                    )
-                    
-                    # 更新玩家列表
-                    await asyncio.gather(
-                        *[p.websocket.send(json.dumps({
-                            'type': 'players_update',
-                            'players': [p.name for p in other_players.values()]
-                        })) for p in other_players.values()]
-                    )
-                except websockets.exceptions.ConnectionClosed:
-                    pass  # 忽略发送消息时的连接关闭错误
+                # 发送game_over消息给其他玩家
+                game_over_message = {
+                    'type': 'game_over',
+                    'reason': f"玩家 {player.name} 断开连接，游戏结束",
+                    'scores': {p.name: p.score for p in other_players.values()},
+                    'reset_game': True
+                }
+                for p in other_players.values():
+                    try:
+                        await p.websocket.send(json.dumps(game_over_message))
+                    except websockets.exceptions.ConnectionClosed:
+                        pass
             
-            # 最后才删除玩家
+            # 删除玩家
             del self.players[websocket]
+            
+            # 更新玩家列表
+            if other_players:
+                # 使用broadcast_message发送players_update消息
+                await broadcast_message(self, {
+                    'type': 'players_update',
+                    'players': [p.name for p in self.players.values()]
+                })
+            
             try:
                 await websocket.close()
             except:
                 pass  # 忽略关闭连接时的错误
-    
+
     def all_players_ready(self) -> bool:
         return len(self.players) == 2 and all(p.ready for p in self.players.values())
     
@@ -168,10 +181,11 @@ async def broadcast_message(game: WordPKGame, message: dict):
     """向所有玩家广播消息"""
     if game.players:
         try:
-            await asyncio.gather(
-                *[player.websocket.send(json.dumps(message))
-                  for player in game.players.values()]
-            )
+            # 创建所有发送任务
+            tasks = [player.websocket.send(json.dumps(message))
+                    for player in game.players.values()]
+            # 等待所有任务完成
+            await asyncio.gather(*tasks, return_exceptions=True)
         except websockets.exceptions.ConnectionClosed:
             pass  # 忽略发送消息时的连接关闭错误
 
@@ -202,7 +216,9 @@ async def next_round(game: WordPKGame):
             'word': word_data['word'],
             'options': word_data['options'],
             'scores': {p.name: p.score for p in game.players.values()},
-            'multiplier': multiplier  # 添加倍数信息
+            'multiplier': multiplier,  # 添加倍数信息
+            'pronunciation': word_data['pronunciation'],
+            'meaning': word_data['meaning']
         })
     else:
         # 游戏结束
@@ -363,7 +379,7 @@ async def main():
             await websocket.send(json.dumps({
                 'type': 'game_config',
                 'total_rounds': Config.TOTAL_ROUNDS,
-                'answer_timeout': Config.ANSWER_TIMEOUT  # 使用正确的超时时间
+                'answer_timeout': Config.ANSWER_TIMEOUT
             }))
             
             # 通知所有玩家有新玩家加入

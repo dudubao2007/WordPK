@@ -49,6 +49,7 @@ class WordPKClient:
         self.opponent_name = None  # 对手名字
         self.total_rounds = 0  # 总回合数，将从服务器获取
         self.answer_timeout = 20000  # 答题超时时间（毫秒），将从服务器获取
+        self.can_answer = False  # 是否可以答题
         
         # 创建界面
         self.create_widgets()
@@ -82,7 +83,8 @@ class WordPKClient:
         config = {
             'name': self.name,
             'host': self.host_entry.get().strip(),
-            'port': int(self.port_entry.get().strip())
+            'port': int(self.port_entry.get().strip()),
+            'pronunciation_type': self.pronunciation_type.get()
         }
         with open('config.json', 'w', encoding='utf-8') as f:
             json.dump(config, f, indent=4, ensure_ascii=False)
@@ -114,6 +116,18 @@ class WordPKClient:
         self.port_entry.insert(0, str(self.config['port']))
         self.port_entry.pack(pady=5)
         
+        # 发音类型选择
+        tk.Label(self.login_frame, text="发音类型：", font=self.info_font).pack(pady=5)
+        pron_frame = tk.Frame(self.login_frame)
+        pron_frame.pack()
+        self.pronunciation_type = tk.StringVar(value=self.config.get('pronunciation_type', 'uk'))
+        uk_radio = tk.Radiobutton(pron_frame, text="英式", font=self.info_font,
+                                 variable=self.pronunciation_type, value='uk')
+        us_radio = tk.Radiobutton(pron_frame, text="美式", font=self.info_font,
+                                 variable=self.pronunciation_type, value='us')
+        uk_radio.pack(side='left', padx=5)
+        us_radio.pack(side='left', padx=5)
+        
         # 错误信息显示
         self.login_error_label = tk.Label(self.login_frame, text="", font=self.info_font, fg="red")
         self.login_error_label.pack(pady=5)
@@ -138,7 +152,11 @@ class WordPKClient:
         
         # 单词显示
         self.word_label = tk.Label(self.game_frame, text="", font=self.word_font)
-        self.word_label.pack(pady=30)
+        self.word_label.pack(pady=10)
+        
+        # 音标显示
+        self.pronunciation_label = tk.Label(self.game_frame, text="", font=("Arial", 24))
+        self.pronunciation_label.pack(pady=5)
         
         # 选项按钮
         self.option_buttons = []
@@ -196,7 +214,7 @@ class WordPKClient:
             self.ready_button.config(state='disabled')
     
     def select_answer(self, index):
-        if self.websocket and self.game_started:
+        if self.websocket and self.game_started and self.can_answer:
             # 计算答题用时（毫秒）
             answer_time = min(
                 int((time.time() - self.question_start_time) * 1000), 
@@ -208,9 +226,12 @@ class WordPKClient:
                 self.root.after_cancel(self.answer_timer)
                 self.answer_timer = None
             
+            # 设置不可答题
+            self.can_answer = False
+            
             asyncio.create_task(self.send_message({
                 'type': 'answer',
-                'answer': self.option_buttons[index].cget('text').split('. ')[1],
+                'answer': self.option_buttons[index].cget('text')[3:],
                 'time': answer_time
             }))
             # 禁用所有按钮，等待结果
@@ -256,33 +277,41 @@ class WordPKClient:
     async def receive_messages(self):
         try:
             while True:
-                message = await self.websocket.recv()
-                data = json.loads(message)
+                raw_message = await self.websocket.recv()
+                message = json.loads(raw_message)
+                message_type = message['type']
                 
-                if data['type'] == 'name_taken':
-                    self.login_error_label.config(text=data['message'])
+                if message_type == 'name_taken':
+                    self.login_error_label.config(text=message['message'])
                     await self.websocket.close()
                     self.websocket = None
                     return
                 
-                elif data['type'] == 'game_config':
+                elif message_type == 'game_config':
                     # 保存总回合数和答题时间限制
-                    self.total_rounds = data['total_rounds']
-                    self.answer_timeout = data['answer_timeout']
+                    self.total_rounds = message['total_rounds']
+                    self.answer_timeout = message['answer_timeout']
                 
-                elif data['type'] == 'players_update':
+                elif message_type == 'players_update':
                     # 更新对手名字
                     old_opponent = self.opponent_name
-                    other_players = [name for name in data['players'] if name != self.name]
+                    other_players = [name for name in message['players'] if name != self.name]
                     self.opponent_name = other_players[0] if other_players else None
                     
                     # 显示玩家名字
-                    if len(data['players']) == 2:
+                    if len(message['players']) == 2:
                         self.players_label.config(
                             text=f"{self.name} (你) vs {self.opponent_name}"
                         )
                         if not old_opponent and self.opponent_name:
                             self.status_label.config(text=f"{self.opponent_name} 加入了游戏")
+                            # 重置游戏相关状态，准备新游戏
+                            self.game_started = False
+                            self.can_answer = False
+                            self.ready_button.config(state='normal')
+                            # 清空选项按钮
+                            for btn in self.option_buttons:
+                                btn.config(text="", state='normal', bg='SystemButtonFace')
                     else:
                         self.players_label.config(text="等待玩家加入...")
                         if old_opponent:
@@ -293,13 +322,13 @@ class WordPKClient:
                         self.login_frame.pack_forget()
                         self.game_frame.pack(expand=True, fill='both')
                 
-                elif data['type'] == 'player_ready':
-                    player_display = self.get_player_display_name(data['player'])
+                elif message_type == 'player_ready':
+                    player_display = self.get_player_display_name(message['player'])
                     self.status_label.config(
                         text=f"{player_display} 已准备"
                     )
                 
-                elif data['type'] == 'game_start':
+                elif message_type == 'game_start':
                     self.game_started = True
                     self.word_label.config(text="游戏开始！", font=self.result_font)
                     self.status_label.config(text="游戏开始！")
@@ -309,14 +338,18 @@ class WordPKClient:
                         return
                     self.word_label.config(text="", font=self.word_font)
                 
-                elif data['type'] == 'answer_feedback':
+                elif message_type == 'answer_feedback':
                     # 立即显示答题结果
+                    selected_answer = message['answer']
+                    is_correct = message['is_correct']
+                    
+                    # 只标记选中的答案
                     for btn in self.option_buttons:
-                        text = btn.cget('text').split('. ')[1]
-                        if text == data['answer']:
-                            btn.config(bg="light green" if data['is_correct'] else "pink")
+                        if btn.cget('text')[3:] == selected_answer:
+                            btn.config(bg="light green" if is_correct else "pink")
+                            break
                 
-                elif data['type'] == 'round_result':
+                elif message_type == 'round_result':
                     if not self.running:  # 如果程序正在退出，不再更新UI
                         return
                     # 取消超时定时器
@@ -325,42 +358,60 @@ class WordPKClient:
                         self.answer_timer = None
                         
                     result_text = ""
-                    if data['both_correct']:
-                        if data['winner']:
-                            if data['winner'] == self.name:
-                                result_text = f"你更快！(+{data['score_added']}分)"
+                    if message['both_correct']:
+                        if message['winner']:
+                            if message['winner'] == self.name:
+                                result_text = f"你更快！(+{message['score_added']}分)"
                             else:
-                                result_text = f"对方更快！(对方+{data['score_added']}分)"
+                                result_text = f"对方更快！(对方+{message['score_added']}分)"
                         else:
                             result_text = "双方用时相同，均不得分"
-                    elif data['winner']:
-                        if data['winner'] == self.name:
-                            result_text = f"答对了！(+{data['score_added']}分)"
+                    elif message['winner']:
+                        if message['winner'] == self.name:
+                            result_text = f"答对了！(+{message['score_added']}分)"
                         else:
-                            result_text = f"对方答对了！(对方+{data['score_added']}分)"
+                            result_text = f"对方答对了！(对方+{message['score_added']}分)"
                     else:
-                        result_text = f"双方都答错了！正确答案是：{data['correct_answer']}"
+                        result_text = f"双方都答错了！正确答案是：{message['correct_answer']}"
                     
                     self.status_label.config(text=result_text)
                     
                     # 显示正确答案
                     for btn in self.option_buttons:
-                        text = btn.cget('text').split('. ')[1]
-                        if text == data['correct_answer'] and btn.cget('bg') != 'light green':
+                        if btn.cget('text')[3:] == message['correct_answer']:
                             btn.config(bg="light green")
+                            break
                     
                     # 更新上一题信息
                     self.last_word_label.config(
-                        text=f"{data['word']} = {data['correct_answer']}"
+                        text=f"上一题：{message['word']}"
                     )
                     
                     # 等待显示结果
                     await asyncio.sleep(Config.RESULT_DISPLAY_DELAY)
                 
-                elif data['type'] == 'new_round':
-                    # 等待显示结果后再显示新题
-                    self.word_label.config(text=data['word'], font=self.word_font)
-                    for i, option in enumerate(data['options']):
+                elif message_type == 'new_round':
+                    # 设置可以答题
+                    self.can_answer = True
+                    
+                    # 显示新的单词和选项
+                    self.word_label.config(text=message['word'], font=self.word_font)
+                    
+                    # 显示音标（根据配置选择英式或美式）
+                    pron_type = self.config.get('pronunciation_type', 'uk')
+                    pronunciation = message['pronunciation'][pron_type]
+                    self.pronunciation_label.config(text=f"/{pronunciation}/")
+                    
+                    # 更新上一个单词的显示
+                    if hasattr(self, 'last_word') and hasattr(self, 'last_meaning'):
+                        self.last_word_label.config(text=f"上一题：{self.last_word} - {self.last_meaning}")
+                    
+                    # 保存当前单词信息用于下一轮显示
+                    self.last_word = message['word']
+                    self.last_meaning = message['meaning']
+                    
+                    # 显示选项
+                    for i, option in enumerate(message['options']):
                         self.option_buttons[i].config(
                             text=f"{i+1}. {option}",
                             state='normal',
@@ -368,13 +419,13 @@ class WordPKClient:
                         )
                     
                     # 显示回合数和倍数信息
-                    round_text = f"第 {data['round']}/{self.total_rounds} 轮"
-                    if data.get('multiplier', 1.0) > 1:
-                        round_text += f" (得分×{data['multiplier']})"
+                    round_text = f"第 {message['round']}/{self.total_rounds} 轮"
+                    if message.get('multiplier', 1.0) > 1:
+                        round_text += f" (得分×{message['multiplier']})"
                     self.status_label.config(text=round_text)
                     
                     # 更新比分
-                    scores = data['scores']
+                    scores = message['scores']
                     scores_text = f"{self.name}: {scores[self.name]}分 vs {self.opponent_name}: {scores[self.opponent_name]}分"
                     self.score_label.config(text=scores_text)
                     
@@ -382,38 +433,44 @@ class WordPKClient:
                     self.question_start_time = time.time()
                     self.answer_timer = self.root.after(self.answer_timeout, self.timeout_answer)
                 
-                elif data['type'] == 'wrong_answer':
+                elif message_type == 'wrong_answer':
                     if not self.running:  # 如果程序正在退出，不再更新UI
                         return
-                    if data['player'] == self.name:
+                    if message['player'] == self.name:
                         self.status_label.config(text="回答错误！")
                 
-                elif data['type'] == 'game_over':
+                elif message_type == 'game_over':
                     if not self.running:  # 如果程序正在退出，不再更新UI
                         return
-                    self.game_started = False
-                    scores = data['scores']
+                    scores = message['scores']
                     
                     # 检查是否因为对手断开连接而结束
-                    if 'reason' in data:
-                        self.word_label.config(text="游戏结束", font=self.result_font)
-                        self.status_label.config(text=data['reason'])
-                        # 重置准备按钮和选项
-                        self.ready_button.config(state='normal')
-                        for btn in self.option_buttons:
-                            btn.config(text="")
-                        return
+                    if 'reason' in message:
+                        was_game_in_progress = self.game_started  # 保存当前游戏状态
+                        if was_game_in_progress:  # 只在游戏已开始时显示"游戏结束"
+                            self.word_label.config(text="游戏结束", font=self.result_font)
+                            self.status_label.config(text=message['reason'])
+                        else:
+                            self.word_label.config(text="")
+                            # 如果游戏还没开始，就不显示"游戏结束"字样
+                            self.status_label.config(text=f"玩家 {self.opponent_name} 断开了连接")
+                        # 重置游戏状态
+                        self.reset_game_state()
+                        continue  # 继续等待新消息
                     
-                    # 正常游戏结束
+                    # 正常游戏结束时重置状态
+                    self.game_started = False
+                    
+                    # 检查是否因为对手断开连接而结束
                     if self.opponent_name and self.opponent_name in scores:
                         scores_text = f"{self.name}: {scores[self.name]}分 vs {self.opponent_name}: {scores[self.opponent_name]}分"
                     else:
                         scores_text = f"{self.name}: {scores[self.name]}分"
                     
-                    if data['is_tie']:
+                    if message['is_tie']:
                         self.word_label.config(text="平局！", font=self.result_font)
                     else:
-                        winner = data['winners'][0]
+                        winner = message['winners'][0]
                         if winner == self.name:
                             self.word_label.config(text="你赢了！", font=self.result_font)
                         else:
@@ -423,9 +480,10 @@ class WordPKClient:
                     
                     # 重置准备按钮
                     self.ready_button.config(state='normal')
-                    # 清空选项
+                    # 清空选项和音标
                     for btn in self.option_buttons:
                         btn.config(text="")
+                    self.pronunciation_label.config(text="")
         
         except websockets.exceptions.ConnectionClosed:
             if not self.running:  # 如果程序正在退出，不再更新UI
@@ -433,10 +491,43 @@ class WordPKClient:
             if self.game_frame.winfo_ismapped():
                 self.word_label.config(text="连接已断开", font=self.result_font)
                 self.status_label.config(text="与服务器的连接已断开")
-                self.game_frame.pack_forget()
-                self.login_frame.pack(expand=True)
             self.websocket = None
-    
+        except Exception as e:
+            if not self.running:
+                return
+            if self.game_frame.winfo_ismapped():
+                self.word_label.config(text="发生错误", font=self.result_font)
+                self.status_label.config(text=f"错误：{str(e)}")
+            self.websocket = None
+
+    def reset_game_state(self):
+        """重置游戏状态"""
+        self.game_started = False
+        self.can_answer = False
+        self.opponent_name = None  # 重置对手名字
+        if hasattr(self, 'last_word'):
+            delattr(self, 'last_word')
+        if hasattr(self, 'last_meaning'):
+            delattr(self, 'last_meaning')
+        
+        # 重置选项按钮
+        for btn in self.option_buttons:
+            btn.config(text="", state='normal', bg='SystemButtonFace')
+        
+        # 重置音标和比分显示
+        self.pronunciation_label.config(text="")
+        self.score_label.config(text="")
+        self.last_word_label.config(text="")
+        self.ready_button.config(state='normal')
+        
+        # 取消定时器
+        if self.answer_timer:
+            self.root.after_cancel(self.answer_timer)
+            self.answer_timer = None
+        
+        # 重置玩家标签
+        self.players_label.config(text="等待玩家加入...")
+
     def on_closing(self):
         """处理窗口关闭事件"""
         self.running = False
