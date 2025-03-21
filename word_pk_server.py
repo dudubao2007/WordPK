@@ -88,10 +88,11 @@ class WordPKGame:
             # 75%概率选第一个，25%概率选第二个
             correct_answer = word_data['meanings'][0] if random.random() < 0.75 else word_data['meanings'][1]
         
-        # 从options1中选择两个错误选项
-        wrong_options1 = random.sample([opt['meaning'] for opt in word_data['options1']], 2)
-        # 从options2中选择一个错误选项
-        wrong_options2 = random.sample([opt['meaning'] for opt in word_data['options2']], 1)
+        num1 = 2 if random.random() < 0.5 else 1
+        # 从options1中选择1-2个错误选项
+        wrong_options1 = random.sample([opt['meaning'] for opt in word_data['options1']], num1)
+        # 从options2中选择2-1个错误选项
+        wrong_options2 = random.sample([opt['meaning'] for opt in word_data['options2']], 3 - num1)
         
         # 组合所有选项并打乱
         all_options = [correct_answer] + wrong_options1 + wrong_options2
